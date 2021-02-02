@@ -1,0 +1,2658 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr" id="R1">
+<head>
+<meta http-equiv="Content-Language" content="ja" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="mixi-check-robots" CONTENT="nodescription, noimage">
+<meta property="og:image" content="https://assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/icon_ogpnkd.png" />
+<meta property="og:url" content="https://www.nikkei.com/nkd/company/?scode=8316" />
+<meta property="og:title" content="三井住友フィナンシャルグループ[8316]の株価・株主優待など。" />
+<meta property="og:description" content="【三井住友系の金融持ち株会社】収益力は大手銀行グループでトップ級。 この企業の最新ニュース、業績、株価・株主優待、配当利回りをワンストップで提供。" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="日本経済新聞 電子版" />
+<meta name="twitter:title" content="三井住友フィナンシャルグループ[8316]の株価・株主優待など。" />
+<meta name="twitter:description" content="【三井住友系の金融持ち株会社】収益力は大手銀行グループでトップ級。 この企業の最新ニュース、業績、株価・株主優待、配当利回りをワンストップで提供。" />
+<meta name="twitter:creator" content="@nikkei" />
+<meta name="twitter:image" content="https://assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/icon_twittercard_nkd.png" />
+<meta name="twitter:site" content="@nikkei" />
+<meta name="twitter:card" content="summary" />
+<meta property="fb:app_id" content="197388106979545" />
+<meta name="description" content="三井住友フィナンシャルグループの新製品・新サービス情報などの最新ニュースや業績・財務データはオンライン版「日経会社情報」。三井住友フィナンシャルグループの売上や利益率など企業概要、株価、プレスリリース、人事・おくやみ情報まであらゆる情報をワンストップで提供。" />
+<meta name="news_keywords" content="銀行,三井住友フィナンシャルグループのニュース,三井住友フィナンシャルグループの新製品・新サービス情報,三井住友フィナンシャルグループの企業概要,三井住友フィナンシャルグループの業績・財務・株価,三井住友フィナンシャルグループの人事情報やおくやみ" />
+<meta name="keywords" content="銀行,三井住友フィナンシャルグループのニュース,三井住友フィナンシャルグループの新製品・新サービス情報,三井住友フィナンシャルグループの企業概要,三井住友フィナンシャルグループの業績・財務・株価,三井住友フィナンシャルグループの人事情報やおくやみ" />
+
+<meta name="msApplication-ID" content="AE156C3D.494F24E3" />
+<meta name="msApplication-PackageFamilyName" content="AE156C3D.494F24E3_drw2bfqyhqxtg" />
+<meta name="info003" content="true" />
+<title>三井住友フィナンシャルグループ[8316] : 株式/株価 : 日経会社情報DIGITAL : 日経電子版</title>
+<link rel="canonical" href="https://www.nikkei.com/nkd/company/?scode=8316" />
+<link rel="alternate" hreflang="ja" href="https://www.nikkei.com/nkd/company/?scode=8316" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" id="JSID_viewport" />
+<script language="JavaScript" type="text/javascript">
+<!--
+
+if ( navigator.userAgent.indexOf('iPad') > 0 || (navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') < 0)) {
+    var metaTag = document.getElementById("JSID_viewport");
+    if (null != metaTag) {
+        metaTag.setAttribute('content','');
+    }
+}
+//-->
+</script>
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="/nkd/manifest.json">
+<meta name="theme-color" content="#0a385b">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="日経会社情報DIGITAL">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="日経会社情報DIGITAL">
+<link rel="apple-touch-icon" sizes="96x96" href="//partsa.nikkei.jp/parts/ds/images/nkd/common/nkd_launcher-icon-2x.png">
+<link rel="apple-touch-icon" sizes="144x144" href="//partsa.nikkei.jp/parts/ds/images/nkd/common/nkd_launcher-icon-3x.png">
+<link rel="apple-touch-icon" sizes="192x192" href="//partsa.nikkei.jp/parts/ds/images/nkd/common/nkd_launcher-icon-4x.png">
+<link rel="stylesheet" type="text/css" href="//assets.nikkei.jp/release/v3.1.38/parts/ds/css/marketx/marketx.css" media="screen,tv,projection,print" /><link rel="stylesheet" type="text/css" href="//assets.nikkei.jp/release/v3.1.38/parts/ds/css/layout.module.master.css" media="screen,tv,projection,print" /><!--[if IE]><script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/excanvas.compiled.min.js"></script><![endif]--><script type="text/javascript">
+_nkconf = {};_nkconf.ID_YUDO = [];_nkconf.DATA_UPDATE_URL="";_nkconf.DATA_TOKEN_VALUE="";_nkconf.DATA_SESSION={};_nkconf.DATA_SESSION_CHECK_URL="/async/async.do/?ae=P_CM_WHITE&sv=NX";_nkconf.DATA_MAP_NAME={day:"NK_DS_DISP_D",month:"NK_DS_DISP_M",memory:"NK_DS_DISP_T",long:"NK_DS_DISP_I",market:"NK_MONEY_STOCK_LIST"};_nkconf.IS_PRINTPAGE=false;_nkconf.SCRIPT_DOMAIN_DEFAULT="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/";_nkconf.SCRIPT_RUNASYNC={autopopup:"nkds.kijiballoon.min.js",change:"nkds.classchange.min.js",date:"nkds.datepicker.min.js",fontsize:"nkds.kijitool.min.js",formcheck:"nkds.formcheck.min.js",gadget:"nkds.gadget.min.js",graph:"nkds.graph.min.js",groupcheck:"nkds.groupcheck.min.js",max:"nkds.checkmax.min.js",openclose:"nkds.openclose.min.js",popupmenu:"nkds.popupmenu.min.js",pics:"nkds.paperpics.min.js",replace:"nkds.tagreplace.min.js",slider:"nkds.slider.min.js",swf_keyword:"nkds.loadswf.keyword.min.js",swf_novel:"nkds.loadswf.novel.min.js",swf_photo:"nkds.loadswf.photo.min.js",swf_viewer:"nkds.loadswf.viewer.min.js",advertise:"nad.min.js",inheritquery:"nkds.inheritquery.min.js",flick:"nkds.flick.min.js",photoviewer:"nkds.photoviewercontrol.min.js",yomimasuka:"nkds.yomimasukacontrol.min.js"};_nkconf.MEGAMENU_URL="/async/async.do/?ae=JO_CM_MEGAMENU&sv=NX&menu=";_nkconf.COMPANY_SUGGEST_URL="/async/async.do/?ae=JO_CM_COMPANY_SUGGEST&sv=NX&searchKeyword=";_nkconf.NKD_SUGGEST_URL="/async/async.do/?ae=JO_CM_CW_SRBOX_SUGGEST_2017&sv=NX&searchKeyword=%QUERY&JSON=true";_nkconf.FUND_SUGGEST_URL="/async/async.do/?ae=JO_CM_CW_FUND_SRBOX_SUGGEST&sv=NX&searchKeyword=%QUERY&JSON=true";_nkconf.FUND_SALES_COMPANY_SUGGEST_URL="/async/async.do/?ae=JO_CM_FUND_SALES_COMPANY_SUGGEST&sv=NX&searchKeyword=%QUERY&JSON=true";_nkconf.PATH_FIXIMG="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/";
+</script>
+<script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/nkds.header.min.js"></script><script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/nkds.my.common.min.js"></script><script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/jquery.lazyload.min.js"></script><script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/nkds.market.min.js"></script><script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/jquery.pseudo.js"></script><!-- Make sure the href of the link tag points to the icon you created -->
+
+<link rel="shortcut icon" type="image/ico" href="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/ico/pin_favicon.ico" />
+<meta name="application-name" content="日本経済新聞　電子版" />
+<meta name="msapplication-starturl" content="https://www.nikkei.com/" />
+<meta name="msapplication-navbutton-color" content="#004ec0" />
+<meta name="msapplication-window" content="width=1024;height=768" />
+<meta name="msapplication-tooltip" content="日経電子版でニュースをチェック" />
+
+<!-- Each meta tag below adds a Static Jump List item to the
+ Tasks list on our pinned site's Jump List menu -->
+<meta name="msapplication-task"
+content="name=Web刊;
+action-uri=https://www.nikkei.com/;
+icon-uri=//assets.nikkei.jp/release/v3.1.38/parts/ds/images/ico/pin_16webkan.ico" />
+
+<meta name="msapplication-task"
+content="name=朝刊・夕刊;
+action-uri=https://www.nikkei.com/paper/;
+icon-uri=//assets.nikkei.jp/release/v3.1.38/parts/ds/images/ico/pin_16paper.ico" />
+
+<meta name="msapplication-task"
+content="name=Myニュース;
+action-uri=https://r.nikkei.com/mynews;
+icon-uri=//assets.nikkei.jp/release/v3.1.38/parts/ds/images/ico/pin_16my.ico" />
+
+<script type="text/javascript">
+var F1H_CUSTOM_KEY_VALUE = {KFID0:'DS_NKD'};
+</script>
+
+<script type="text/javascript" src="//partsa.nikkei.com/static/nkis/js/foneH.js"></script>
+<script async type="text/javascript" src="https://r.nikkei.com/.resources/tracking/static/script/bundle-click-tracker.rev-efcbb3.js"></script>
+<script async type="text/javascript" src="https://r.nikkei.com/.resources/tracking/static/script/bundle-inview-tracker.rev-a796c6.js"></script>
+<script type="text/javascript">
+  window.addEventListener('load', function() {
+    var track = function (data) {
+      window.atlasTracking.trackAction(data.action, data.category, data.events, data.options);
+    };
+
+    window.initInviewTracker(track);
+    window.initClickTracker(track);
+  });
+</script>
+<style>
+<!--
+.menu_display {display:table-cell;}
+.menu_none {display:none;}
+-->
+</style>
+
+<script src="//assets.adobedtm.com/43692acb8f62beca52063bd53825dcc138f4617b/satelliteLib-f111f9ba39867252079783186a3954a05ce68264.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script></head>
+<body class="">
+<div class="m-drawerMenu">
+    <div class="m-drawerMenu_header">
+        <div id="JSID_UserMenu_SP" class="l-header_user">
+            <div class="l-header_user_information">
+        <a href="javascript:void(0)" id="JSID_LOGIN_SP" rel="nofollow"><span class="m-button login a-pv3 a-ph12"><span class="m-button_text">ログイン</span></span></a><script type="text/javascript">
+	_nk.putUrl("#JSID_LOGIN_SP",{JSID_urlTargettype:'href',JSID_urlTargeturl:'https://www.nikkei.com/etc/accounts/login?dps=1&url=' + encodeURIComponent(location.href) + ''});
+	</script>
+<a class="l-header_user_link js-headerUserMenuTrigger" href="javascript:void(0)" rel="nofollow">
+            <span class="l-header_user_name">
+                メニュー</span>
+            <span class="m-wficon triDown"></span>
+        </a>
+    </div>
+
+    <div class="l-header_user_menu js-headerUserMenu">
+        <div class="m-floatbox balloon topRight">
+            <div class="m-floatbox_body">
+                <div class="m-floatbox_section">
+                    <div class="l-header_user_menu_link">
+                        <ul>
+                            <li><a href="https://regist.nikkei.com/support/" rel="nofollow">ご購読サポート</a></li>
+                            <li><a href="http://chatfaq.nikkei.com/" target="_blank" rel="nofollow">チャットサポート</a></li>
+                            <li><a href="http://www.nikkei.com/help/" target="_blank" rel="nofollow">ヘルプセンター</a></li>
+                            <li><a href="https://id.nikkei.com/lounge/" target="_blank" rel="nofollow">日経ＩＤラウンジ</a></li>
+                            <li><a href="/r123/?n_cid=DSPRM1352" rel="nofollow">ご購読の申し込み</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        _nk.setUserMenu("#JSID_UserMenu_SP");
+    </script>
+</div>
+    </div>
+    <div class="m-drawerMenu_body">
+        <ul class="m-drawerMenu_list">
+            <li>
+                <a href="/nkd/?n_cid=DSNKD003">会社情報トップ</a></li>
+            <li>
+                <a href="/markets/">マーケット</a></li>
+            <li>
+                <a href="/markets/kabu/">株式</a></li>
+            <li>
+                <a href="/">電子版トップ</a></li>
+            <li>
+                <a href="/economy/">経済・政治</a></li>
+            <li>
+                <a href="/business/">ビジネス</a></li>
+            <li>
+                <a href="/technology/">テクノロジー</a></li>
+            <li>
+                <a href="/international/">国際・アジア</a></li>
+            <li>
+                <a href="/sports/">スポーツ</a></li>
+            <li>
+                <a href="/society/">社会</a></li>
+            <li>
+                <a href="/local/">地域</a></li>
+            <li>
+                <a href="/opinion/">オピニオン</a></li>
+            <li>
+                <a href="/culture/">文化</a></li>
+            <li>
+                <a href="https://style.nikkei.com/money/?n_cid=LMNST004">マネー</a></li>
+            <li>
+                <a href="https://style.nikkei.com/?n_cid=LMNST004">ライフ</a></li>
+            <li>
+                <a href="/paper/">朝刊・夕刊</a></li>
+            <li>
+                    <a href="https://r.nikkei.com/mynews">Myニュース</a></li>
+                <li>
+                    <a href="/jinji/" target="_blank">人事ウオッチ</a></li>
+            </ul>
+    </div>
+</div>
+<script type="text/javascript">
+
+$(function(){
+    $('.js-drawerMenuBtn').click(function(e){
+        e.stopPropagation();
+        var $menu = $('.m-drawerMenu');
+        var $main = $('.m-drawerMenuMain_inner');
+        var $fiexdElm_L = $('.m-drawerMenuMain_fixedLeftElm');
+        var $fiexdElm_R = $('.m-drawerMenuMain_fixedRightElm');
+        if($(this).hasClass('open')){
+            $(this).removeClass('open').animate({'left' : '-=250'}, 300, 'swing');
+            $menu.css({'z-index' : '-1'});
+            $main.removeClass('open').animate({'margin-left' : '0', 'margin-right' : '0'}, 300, 'swing', function(){
+                $menu.css({'visibility' : 'hidden'});
+            });
+            $fiexdElm_L.animate({'left' : '-=250'}, 300, 'swing');
+            $fiexdElm_R.animate({'right' : '+=250'}, 300, 'swing');
+
+        }else{
+            $(this).addClass('open').animate({'left' : '+=250'}, 300, 'swing');
+            $menu.css({'visibility' : 'visible'});
+            $main.addClass('open').animate({'margin-left' : '250px', 'margin-right' : '-250px'}, 300, 'swing', function(){
+                $menu.css({'z-index' : '1'});
+            });
+            $fiexdElm_L.animate({'left' : '+=250'}, 300, 'swing');
+            $fiexdElm_R.animate({'right' : '-=250'}, 300, 'swing');
+        }
+    });
+    $('.js-drawerMenuMain').click(function(){
+        var $btn = $('.js-drawerMenuBtn');
+        var $menu = $('.m-drawerMenu');
+        var $fiexdElm_L = $('.m-drawerMenuMain_fixedLeftElm');
+        var $fiexdElm_R = $('.m-drawerMenuMain_fixedRightElm');
+        if($(this).hasClass('open')){
+            $btn.removeClass('open').animate({'left' : '-=250'}, 300, 'swing');
+            $menu.css({'z-index' : '-1'});
+            $(this).removeClass('open').animate({'margin-left' : '0', 'margin-right' : '0'}, 300, 'swing', function(){
+                $menu.css({'visibility' : 'hidden'});
+            });
+            $fiexdElm_L.animate({'left' : '-=250'}, 300, 'swing');
+            $fiexdElm_R.animate({'right' : '+=250'}, 300, 'swing');
+        }
+    });
+
+    adjustDrawerMenu();
+    $(window).resize(function(){
+        var timer = false;
+        if (timer !== false) {
+            clearTimeout(timer);
+        }
+        timer = setTimeout(function() {
+            adjustDrawerMenu();
+        }, 200);
+    });
+    function adjustDrawerMenu(){
+        var winh = $(window).height();
+        $('.m-drawerMenu_body').height((winh - $('.m-drawerMenu_header').outerHeight()));
+    }
+
+    
+    var wideLayoutMql = window.matchMedia("(min-width:640px)");
+    wideLayoutMql.addListener(handleWideLayout);
+    handleWideLayout(wideLayoutMql);
+    function handleWideLayout(mql) {
+        if (mql.matches) {
+            var $btn = $('.js-drawerMenuBtn');
+            var $menu = $('.m-drawerMenu');
+            var $main = $('.m-drawerMenuMain_inner');
+            var $fiexdElm_L = $('.m-drawerMenuMain_fixedLeftElm');
+            var $fiexdElm_R = $('.m-drawerMenuMain_fixedRightElm');
+            if($main.hasClass('open')){
+                $btn.removeClass('open').css({'left' : ''});
+                $menu.css({'z-index' : '', 'visibility' : ''});
+                $main.removeClass('open').css({'margin-left' : '', 'margin-right' : ''});
+                $fiexdElm_L.css({'left' : ''});
+                $fiexdElm_R.css({'right' : ''});
+            }
+
+        }
+    }
+
+});
+</script>
+<div class="m-drawerMenuMain">
+    <div class="m-drawerMenuMain_inner js-drawerMenuMain">
+<div class="bs-advertise">
+			<div id="ADVERTISE_BANNER">
+				<div>
+				</div>
+			</div>
+		</div>
+		<div class="l-advertise" id="js-advertise">
+			<div class="l-advertise_body">
+				<script type='text/javascript'>
+					try{
+						if (window.navigator.userAgent.toLowerCase().indexOf('msie') != -1 && window.navigator.appVersion.toLowerCase().indexOf("msie 9.") != -1) {
+							if (window.innerWidth > 639) {
+								if(!(window.matchMedia != undefined && window.matchMedia('screen and (max-width:639px)').matches)){
+									TagProvider.requestAds({sectionId: 1615, dmp: true, sync: false});
+								}
+							}
+						}else{
+							if(!(window.matchMedia != undefined && window.matchMedia('screen and (max-width:639px)').matches)){
+								TagProvider.requestAds({sectionId: 1615, dmp: true, sync: false});
+							}
+						}
+					}catch(err){}
+				</script>
+				<div id="2157_1615">
+				<script type="text/javascript">
+					try{
+						if (window.navigator.userAgent.toLowerCase().indexOf('msie') != -1 && window.navigator.appVersion.toLowerCase().indexOf("msie 9.") != -1) {
+							if (window.innerWidth > 639) {
+								if(!(window.matchMedia != undefined && window.matchMedia('screen and (max-width:639px)').matches)){
+									TagProvider.displayAd('2157_1615');
+								}
+							}
+						}else{
+							if(!(window.matchMedia != undefined && window.matchMedia('screen and (max-width:639px)').matches)){
+								TagProvider.displayAd('2157_1615');
+							}
+						}
+					}catch(err){}
+				</script>
+			</div>
+			</div>
+		</div>
+	<div id="PAGE_TOP">
+    <div class="l-miH02  RWD ">
+    <div class="l-miH02_inner">
+        <div class="l-miH02_H02a m-drawerMenuMain_fixedLeftElm"><a href="/" id="JSID_TITLE"><!--[if lte IE 8]><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/logo_nikkei_header_2017.png" title="日本経済新聞" alt="日本経済新聞" /><![endif]-->
+                <!--[if gte IE 9]><!--><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/logo_nikkei_header_2017.svg" title="日本経済新聞" alt="日本経済新聞" /><!--<![endif]--></a></div>
+        <div class="l-miH02_date">2018年8月4日（土）</div>
+        <div class="l-miH02_topLeft">
+            <div id="JSID_InternationalMenu" class="l-miH02_H02n">
+                    <a href="javascript:void(0)" class="l-miH02_H02n_btn js-headerInternationalMenuTrigger"><span class="m-wficon triDown"></span>
+                        <span class="l-miH02_H02c_btn_text">International</span></a><div id="JSID_l-miH02_H02n_menu" class="l-miH02_H02n_menu js-headerInternationalMenu">
+                    <div class="m-floatbox balloon topLeft">
+                        <div class="m-floatbox_body">
+                            <div class="m-floatbox_section">
+                                <div class="l-miH02_H02n_menu_link">
+                                    <ul>
+                                    <li>
+                                        <a href="http://asia.nikkei.com/?n_cid=NARAN101" target="_blank"><span class="m-wficon dot">
+                                                Nikkei Asian Review (English)</span></a></li>
+                                    <li>
+                                        <a href="http://www.ft.com/" target="_blank"><span class="m-wficon dot">
+                                                Financial Times (English)
+                                            </span></a></li>
+                                    <li>
+
+                                        <a href="http://cn.nikkei.com/" target="_blank"><span class="m-wficon dot">
+                                                日経中文網 (Chinese)</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    _nk.setInternationalMenu("#JSID_InternationalMenu");
+                </script>
+            </div>
+        </div>
+        <div class="l-miH02_topRight">
+            <div id="JSID_UserMenu" class="l-miH02_H02c">
+                <a class="l-miH02_H02c_user js-headerUserMenuTrigger"  href="javascript:void(0)" rel="nofollow">
+            <span class="l-miH02_H02c_user_name">
+                設定
+            </span>
+            <span class="m-wficon triDown"></span>
+        </a>
+    <div id="JSID_l-miH02_H02c_userMenu" class="l-miH02_H02c_userMenu js-headerUserMenu">
+        <div class="m-floatbox balloon topRight">
+        <div class="m-floatbox_body">
+            <div class="m-floatbox_section">
+                <div class="l-miH02_H02c_userMenu_link">
+                    <ul>
+                        <li><a href="https://regist.nikkei.com/support/" rel="nofollow">ご購読サポート</a></li>
+                        <li><a href="http://chatfaq.nikkei.com/" target="_blank" rel="nofollow">チャットサポート</a></li>
+                        <li><a href="http://www.nikkei.com/help/" target="_blank" rel="nofollow">ヘルプセンター</a></li>
+                        <li><a href="https://id.nikkei.com/lounge/" target="_blank" rel="nofollow">日経ＩＤラウンジ</a></li>
+                        <li><a href="/r123/?n_cid=DSPRM1352" rel="nofollow">ご購読の申し込み</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+            _nk.setUserMenu("#JSID_UserMenu");
+        </script>
+    </div>
+            <div class="l-miH02_login">
+                        <a href="javascript:void(0)" id="JSID_LOGIN" class="l-miH02_loginBtn" rel="nofollow"><span>ログイン</span></a></div>
+                    <script type="text/javascript">
+	_nk.putUrl("#JSID_LOGIN",{JSID_urlTargettype:'href',JSID_urlTargeturl:'https://www.nikkei.com/etc/accounts/login?dps=1&url=' + encodeURIComponent(location.href) + ''});
+	</script>
+<div class="l-miH02_H02d"><a href="/r123/?n_cid=DSPRM036" class="l-miH02_H02d_btn"><span>お申し込み</span></a></div></div>
+        <div class="l-miH02_bottomLeft">
+            </div>
+        <div class="l-miH02_bottomRight">
+            </div>
+        <script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/nkds.suggest.min.js"></script><div class="l-spSearch  js-spSearch" id="JSID_spMobileSearch">
+    <div class="l-spSearch_btn m-drawerMenuMain_fixedRightElm" ><a href="javascript:void(0)" class="js-spSearchTrigger"></a></div><div class="l-spSearch_searchForm  m-drawerMenuMain_fixedLeftElm"><div class="m-historyBox_search">
+            <div class="m-searchForm">
+                <form method="get" action="/nkd/search/" accept-charset="UTF-8" class="m-searchForm_form" onsubmit="return false;"><div class="m-searchForm_form_inner">
+                        <div class="m-searchForm_inputWrap">
+                            <div class="m-searchForm_inputTable">
+                                <div class="m-searchForm_inputTable_cellInput">
+                                    <input type="text" name="searchKeyword" maxlength="100" value="" id="searchKeywordMobile" class="m-searchForm_input" /><input type="hidden" name="query_code" value="" id="query_codeMobile" /></div>
+                            </div>
+                        </div>
+                        <div class="m-searchForm_submitWrap">
+                            <input type="submit" value="検索" class="m-searchForm_submit" onclick="_nk.click(this,event,[['JSID_actFormSubmit']]);return false;" />
+                        </div>
+                    </div>
+                </form><script type="text/javascript" >
+                    _nk.suggest.company2017("#searchKeywordMobile", "#query_codeMobile");
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    _nk.setMobileSearch("#JSID_spMobileSearch");
+</script>
+<div class="m-drawerMenuBtn  js-drawerMenuBtn"><span class="m-wficon hamburger"></span></div>
+            <script type="text/javascript">
+                _nk.market.setPageAnchor();</script>
+        </div>
+    </div>
+    </div>
+
+<div class="l-miH03  RWD ">
+    <div class="l-miH03_inner">
+        <ul class="l-miH03_list">
+            <li class="l-miH03_item position_relative"><a href="/"><span>トップ</span></a><div class="l-miH03_menu typeB">
+                    <div class="l-miH04B">
+                    <ul class="l-miH04B_list">
+                            <li class="l-miH04B_listItem">
+                                <a href="/news/category/">速報</a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/access/">アクセスランキング</a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/theme/list/">トピック一覧</a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/news/jinji/">人事</a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/news/okuyami/">おくやみ</a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/pressrelease/">プレスリリース</a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="https://vdata.nikkei.com/" target="_blank">ビジュアルデータ</a>
+                            </li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/photo/">写真</a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="http://www.nikkei.com/video/?n_cid=DTOPV001"><span>映像</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/opinion/editorial/">社説</a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="https://vdata.nikkei.com/economicdashboard/macro/" target="_blank">統計</a>
+                            </li>
+                    </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/economy/"><span>経済・政治</span></a><div class="l-miH03_menu typeE">
+                    <div class="l-miH04E a-medium">
+                        <ul class="l-miH04E_list">
+<li class="l-miH04E_listItem">
+        <a href="/economy/economic/">経済</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/economy/politics/">政治</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/economy/monetary/">金融機関</a></li>
+    <li class="l-miH04E_aside">
+            <a href="/economy/column/" class="l-miH04E_asideTitle">コラム</a><ul class="l-miH04E_asideList">
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=18051501">政治のナゼ</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=18060400">写真でみる永田町</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17101601">風見鶏</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090301">政策研究</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=18032900">霞が関エックス線</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17101910">読み解きポリティクス</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17101602">憲法のトリセツ</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090313">政治アカデメイア</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17092101">経済教室</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090315">金融最前線</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17092100">やさしい経済学</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090318">ニュースこう読む</a></li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/business/"><span>ビジネス</span></a><div class="l-miH03_menu typeE">
+                    <div class="l-miH04E a-medium">
+                        <ul class="l-miH04E_list">
+<li class="l-miH04E_listItem">
+        <a href="/business/startups/">スタートアップ</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/house/">住建・不動産</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/electronics/">エレクトロニクス</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/services/">サービス・食品</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/internet/">ネット・IT</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/consumer-products/">小売り・外食</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/health-care/">ヘルスケア</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/economy/monetary/">金融機関</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/mechanical/">自動車・機械</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/legal/">法務・ガバナンス</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/energy/">環境エネ・素材</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/mirai/">未来面</a></li>
+    <li class="l-miH04E_aside">
+            <a href="/business/column/" class="l-miH04E_asideTitle">コラム</a><ul class="l-miH04E_asideList">
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090317">経営者ブログ</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090324">コンフィデンシャル</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=18062100">仕事人秘録</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090310">価格は語る</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090309">消費を斬る</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17101909">池上彰</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090300">法務インサイド</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090316">就活</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090318">ニュースこう読む</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=18053003">ヒットのクスリ</a></li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/markets/"><span>マーケット</span></a><div class="l-miH03_menu typeE">
+                    <div class="l-miH04E a-medium">
+                        <ul class="l-miH04E_list">
+    <li class="l-miH04E_listItem">
+        <a href="/markets/kabu/">株式</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/markets/ranking/">ランキング</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/markets/kigyo/">企業業績・財務</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/markets/fund/">投資信託</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/markets/kawase/">為替・金利</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/markets/marketdata/top/">世界の市況</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/markets/shohin/">商品</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/markets/ir/">企業IR</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/markets/kaigai/">海外</a></li>
+    <li class="l-miH04E_aside">
+        <a href="/markets/column/" class="l-miH04E_asideTitle">コラム</a><ul class="l-miH04E_asideList">
+            <li class="l-miH04E_asideListItem">
+                <a href="/markets/kigyo/page/?uah=DF_SEC8_C2_030">記者の目</a></li>
+            <li class="l-miH04E_asideListItem">
+                <a href="/markets/kabu/page/?uah=DF_SEC8_C1_080">マーケット反射鏡</a></li>
+            <li class="l-miH04E_asideListItem">
+                <a href="/markets/kabu/page/?uah=DF_SEC8_C1_120">スクランブル</a></li>
+            <li class="l-miH04E_asideListItem">
+                <a href="/markets/column/page/?uah=DF_SEC8_C6_190">マネー底流潮流</a></li>
+            <li class="l-miH04E_asideListItem">
+                <a href="/markets/column/page/?uah=DF_SEC8_C6_030">ポジション</a></li>
+            <li class="l-miH04E_asideListItem">
+                <a href="/markets/column/page/?uah=DF_SEC8_C6_200">ポジションフラッシュ</a></li>
+        </ul>
+    </li>
+</ul>
+
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/technology/"><span>テクノロジー</span></a><div class="l-miH03_menu typeE">
+                    <div class="l-miH04E a-medium">
+                        <ul class="l-miH04E_list">
+<li class="l-miH04E_listItem">
+        <a href="/technology/driverless/">自動運転</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/startups/">スタートアップ</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/technology/ai/">ＡＩ</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/technology/fintech/">フィンテック</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/technology/leading-edge/">科学＆新技術</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/business/energy/">環境エネ・素材</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/technology/iot/">ＩｏＴ</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/technology/sharing/">シェアエコノミー</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/technology/mobile/">モバイル・５Ｇ</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/technology/bp-promptreport/">BP速報</a></li>
+    <li class="l-miH04E_aside">
+            <a href="/technology/column/" class="l-miH04E_asideTitle">コラム</a><ul class="l-miH04E_asideList">
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090311">モバイルの達人</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=18030600">CBインサイツ</a></li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/international/"><span>国際・アジア</span></a><div class="l-miH03_menu typeE">
+                    <div class="l-miH04E a-medium">
+                        <ul class="l-miH04E_list">
+<li class="l-miH04E_listItem">
+        <a href="/international/china/">中国・台湾</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/america/">北米</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/korea/">朝鮮半島</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/csamerica/">中南米</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/seasia/">東南アジア</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/ft/">Financial Times</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/india-oceania/">南西ア・オセアニア</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/economist/">The Economist</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/europe/">ヨーロッパ</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/asiabiz/">アジアBiz</a></li>
+    <li class="l-miH04E_listItem">
+        <a href="/international/middleeast-africa/">中東・アフリカ</a></li>
+    <li class="l-miH04E_aside">
+            <a href="/international/column/" class="l-miH04E_asideTitle">コラム</a><ul class="l-miH04E_asideList">
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17101600">習政権ウオッチ</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=18040903">Asia Analysis</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17090318">ニュースこう読む</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=18061500">朝鮮半島ファイル</a></li>
+                    <li class="l-miH04E_asideListItem">
+                            <a href="/theme/?dw=17110100">グローバルViews</a></li>
+                    </ul>
+            </li>
+    </ul>
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/sports/"><span>スポーツ</span></a><div class="l-miH03_menu typeB">
+                    <div class="l-miH04B">
+                        <ul class="l-miH04B_list">
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/npb/"><span>プロ野球</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/mlb/"><span>ＭＬＢ</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/soccer/"><span>サッカー</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/golf/"><span>ゴルフ</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/other/?uah=DF_SEC4_C8____"><span>フィギュア</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/other/?uah=DF_SEC4_CE____"><span>ラグビー</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/other/?uah=DF_SEC4_CA____"><span>相撲</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/other/?uah=DF_SEC4_CB____"><span>競馬</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/other/?uah=DF_SEC4_C9____"><span>高校野球</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/other/?uah=DF_SEC4_CC____"><span>格闘技</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/other/?uah=DF_SEC4_CZ____"><span>その他スポーツ</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/go20/"><span>Go20</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="/sports/column/"><span>コラム</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/society/"><span>社会</span></a><div class="l-miH03_menu typeB">
+                    <div class="l-miH04B">
+                        <ul class="l-miH04B_list">
+<li class="l-miH04B_listItem">
+        <a href="/society/column/">コラム</a></li>
+    </ul>
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/local/"><span>地域</span></a><div class="l-miH03_menu typeB">
+                    <div class="l-miH04B">
+                        <ul class="l-miH04B_list">
+<li class="l-miH04B_listItem">
+        <a href="/local/nationwide/">総合</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/tokyo/">東京</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/kansai/">関西</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/chubu/">中部</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/hokkaido-tohoku/">北海道・東北</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/kitakanto-shinetsu/">北関東・信越</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/minamikanto-shizuoka/">南関東・静岡</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/hokuriku/">北陸</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/chugoku-shikoku/">中国・四国</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/kyushu-okinawa/">九州・沖縄</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/local/column/">コラム</a></li>
+    </ul>
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/opinion/"><span>オピニオン</span></a><div class="l-miH03_menu typeB">
+                    <div class="l-miH04B">
+                        <ul class="l-miH04B_list">
+<li class="l-miH04B_listItem">
+        <a href="/opinion/editorial/">社説</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/opinion/shunjyu/">春秋</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/opinion/deepinsight/">Deep Insight</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/opinion/kakushin/">核心</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/opinion/jihyo/">中外時評</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/opinion/jiron/">時論・創論・複眼</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/opinion/global/">グローバルオピニオン</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/opinion/takken/">私見卓見</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/opinion/commentator/">本社コメンテーター</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/international/ft/">Financial Times</a></li>
+    </ul>
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item position_relative"><a href="/culture/"><span>文化</span></a><div class="l-miH03_menu typeB">
+                    <div class="l-miH04B">
+                        <ul class="l-miH04B_list">
+<li class="l-miH04B_listItem">
+        <a href="/culture/cover/">カバーストーリー</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/culture/autobiography/">私の履歴書</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/culture/wadai/">あすへの話題</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/culture/arts/">美の十選</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/culture/reviews/">批評</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/culture/promenade/">プロムナード</a></li>
+    <li class="l-miH04B_listItem">
+        <a href="/culture/go-shogi/">囲碁・将棋</a></li>
+    </ul>
+</div>
+                </div>
+            </li>
+            <li class="l-miH03_item noMenu"><a href="https://style.nikkei.com/money/?n_cid=LMNST004"><span>マネー</span></a></li>
+            <li class="l-miH03_item position_relative"><a href="https://style.nikkei.com/?n_cid=LMNST004"><span>ライフ</span></a><div class="l-miH03_menu typeB left">
+                    <div class="l-miH04B">
+                        <ul class="l-miH04B_list">
+                            <li class="l-miH04B_listItem">
+                                <a href="https://style.nikkei.com/?n_cid=LMNST004"><span>NIKKEI STYLE</span></a></li>
+                            <li class="l-miH04B_listItem">
+                                <a href="https://style.nikkei.com/plus1?n_cid=LMNST004"><span>NIKKEI プラス１</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script>
+var ua = navigator.userAgent;
+var is_sp = (ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || ua.indexOf('iPad') > 0 || ua.indexOf('Android') > 0);
+if(is_sp) {
+    var $naviLink = $('.l-miH03_item > a');
+    window.hrefList = [];
+    $naviLink.each(function() {
+        window.hrefList.push($(this).attr('href'));
+        $(this)
+            .attr('href', 'javascript:void(0)');
+    });
+    $('.l-miH04B_listItem > a').each(function() {
+       var $innerLink = $(this);
+       $innerLink
+           .css('display', 'block');
+       if($innerLink.attr('target')) {
+           $innerLink
+               .removeAttr('target');
+       }
+    });
+    var clickCnt = 0, targetIndexTmp = -1, menuHeight = 0;
+    $naviLink.click(function() {
+        var $this = $(this);
+        $naviLink.each(function() {
+            $(this)
+                .css({'color': '#fff', 'background-color': '#0a385b'})
+                .parent()
+                .removeClass('menu-active')
+                .find('.l-miH03_menu')
+                .css({'opacity': 0, 'overflow': 'hidden'});
+        });
+        if(targetIndexTmp !== $naviLink.index(this)) {
+            clickCnt = 0;
+        }
+        targetIndexTmp = $naviLink.index(this);
+        $this
+            .data('click', ++clickCnt)
+            .css({'color': '#0a385b', 'background-color': '#fff'})
+            .parent()
+            .addClass('menu-active')
+            .find('.l-miH03_menu')
+            .css({'opacity': 1, 'overflow': 'initial'});
+        if($this.data('click') === 2 || $naviLink.index(this) === 11) {
+            $this.data('click', 0);
+            location.href = window.hrefList[$naviLink.index(this)];
+        } else if($('.l-proTimeline_inner').length > 0) {
+            $('body')
+                .css('zoom', 1.001);
+            var ti = setInterval(function() {
+                $('body')
+                    .css('zoom', 1);
+                clearInterval(ti);
+            }, 20);
+        }
+    });
+} else {
+    $('.l-miH03_item').filter('.noMenu').hover(function(){ $(this).addClass('menu-active'); }, function(){ $(this).removeClass('menu-active'); });
+    var $menu = $('.l-miH03_item').not('.noMenu');
+    var $menu_hovered; // 現在hoverされてるメニュー
+    $menu.mouseenter(function(e){
+        var $this = $(this);
+        $menu_hovered = $this;
+        if($this.data('leavetimer')){
+            clearInterval($this.data('leavetimer'));
+            $this.data('leavetimer', null);
+        }
+        if($menu.hasClass('menu-active') == false){
+            $this.addClass('menu-active');
+        }
+    }).mouseleave(function(e){
+        var $this = $(this);
+        $menu_hovered = null;
+        $this.data('leavetimer', setTimeout(function(obj){ obj.removeClass('menu-active'); if($menu_hovered) $menu_hovered.trigger('mouseenter'); }, 200, $this));
+    });
+}
+</script>
+<div id="JSID_key_popupBody" style="display:none;"></div>
+<div class="l-miH05 RWD">
+    <div class="l-miH05_inner">
+        <div class="l-miH05_main">
+            <ul class="l-miH04D">
+                <li class="l-miH04D_item">
+                    <a href="/nkd/"><span class="l-miH04D_text">トップ</span></a></li>
+                <li class="l-miH04D_item">
+                    <a href="/markets/"><span class="l-miH04D_text">マーケット</span></a></li>
+                <li class="l-miH04D_item">
+                    <a href="/markets/kabu/"><span class="l-miH04D_text">株式</span></a></li>
+                <li class="l-miH04D_item">
+                    <a href="/markets/kigyo/"><span class="l-miH04D_text">企業業績・財務</span></a></li>
+                <li class="l-miH04D_item">
+                    <a href="/markets/kawase/"><span class="l-miH04D_text">為替・金利</span></a></li>
+                <li class="l-miH04D_item">
+                    <a href="/markets/ranking/"><span class="l-miH04D_text">ランキング</span></a></li>
+                <li class="l-miH04D_item">
+                    <a href="/markets/fund/"><span class="l-miH04D_text">投資信託</span></a></li>
+            </ul>
+        </div>
+        <div class="l-miH05_sub">
+            <div class="l-miH06B RWD ">
+    <ul class="l-miH06B_list">
+        <li class="l-miH06B_item">
+            <a href="/paper/"><span class="l-miH06B_icon">
+                        <img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/icon_paper.svg" title="" alt="" /></span>
+                   <span class="l-miH06B_text">朝刊・夕刊</span></a></li>
+        <li class="l-miH06B_item">
+            <a href="/nkd/?n_cid=DSNKD003"><span class="l-miH06B_icon">
+                    <img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/icon_nkd.svg" title="" alt="" /></span>
+                <span class="l-miH06B_text">日経会社情報</span><span id="JSID_baseBalloon_nkd"></span></a></li>
+        <li class="l-miH06B_item">
+                <a href="/jinji/" target="_blank"><span class="l-miH06B_icon">
+                        <img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/icon_jinji.svg" title="" alt="" /></span>
+                    <span class="l-miH06B_text">人事ウオッチ</span><span id="JSID_baseBalloon_Jw"></span></a></li>
+        <li class="l-miH06B_item">
+                <a href="https://r.nikkei.com/mynews" onclick=""><span class="l-miH06B_icon">
+                        <img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/icon_mynews.svg" title="" alt="" /></span>
+                    <span class="l-miH06B_text">Myニュース</span><span id="JSID_baseBalloon"></span></a></li>
+        </ul>
+</div>
+
+<script type="text/javascript">
+</script>
+
+</div>
+    </div>
+</div>
+<div id="CONTENTS" class="bs-ms">
+		<div id="CONTENTS_BODY">
+			<div id="CONTENTS_OUTER">
+				<div id="CONTENTS_INNER" class="cmn-clearfix">
+
+					<div id="CONTENTS_MAIN">
+
+						<div class="m-companyCategory">
+    <span class="m-companyCategory_text  a-baseLinkStyleType02">
+        8316 : <a href="/nkd/industry/?n_m_code=121">銀行</a></span>
+
+    <div class="m-company_data_select_mk" id="JSID_select_ba">
+        <span class="m-company_data_select_btn js-openflortBtn" data-tab=".m-company_data_option_mk" >東証１部（優先）</span><div class="m-company_data_option_mk js-open_floatbox">
+            <div class="m-floatbox balloon topLeft">
+                    <div class="m-floatbox_body">
+                        <ul>
+                            <li><a href="/nkd/company/?scode=8316&amp;ba=1">東証１部（優先）</a></li><li><a href="/nkd/company/?scode=8316&amp;ba=3">名証１部</a></li></ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script type="text/javascript">
+        _nk.setCompanySelectBa("#JSID_select_ba");
+    </script>
+
+    <span class="m-company_data_tag"><a href="/markets/kabu/nidxprice/?StockIndex=NAVE">日経平均採用</a></span>
+    <span class="m-company_data_tag"><a href="/markets/kabu/nidxprice/?StockIndex=J400">JPX日経400採用</a></span>
+    <span id="JSID_record_renewal_high"></span>
+    <span id="JSID_record_renewal_low"></span>
+</div>
+<div class="m-companyComment_primary">
+        <p>【三井住友系の金融持ち株会社】収益力は大手銀行グループでトップ級。</p>
+    </div>
+<div class="l-corpLogo">
+    <div class="l-corpLogo_main">
+        <div class="m-headlineLarge a-mb0">
+            <h1 class="m-headlineLarge_text">三井住友フィナンシャルグループ</h1>
+            <br><div class="l-followBtnWrap a-pv3 a-ml7">
+                    <form action="#" method="post" onclick="_nk.click(this,event,[['JSID_actMyBalloon']]);return false">
+            <span class="cmn-button cmn-button-follow">
+                <span class="cmn-icon2 cmn-icon2-plus16c"></span>
+                <span class="cmnc-label">フォローする</span>
+            </span>
+        </form><div id="JSID_htmlBalloon" class="cmn-hide">
+        <div class="cmnc-balloonTitle cmnc-balloonTitle-myNews">
+            <h2 class="cmnc-myNewsLabel">Myニュース</h2>
+        </div>
+
+        <p>有料会員の方のみご利用になれます。<br />
+        気になる企業をフォローすれば、<br />
+        「Myニュース」でまとめよみができます。</p>
+        <div class="cmnc-balloonAction">
+            <a href="http://dsquare.nikkei.com/mynews/" class="cmn-button cmn-button-submit cmn-button-half"><span class="cmnc-label">もっと詳しく</span></a><a href="https://www.nikkei.com/etc/accounts/login?dps=1&amp;url=https%3A%2F%2Fwww.nikkei.com%2Fnkd%2Fcompany%2F%3Fba%3D1%26scode%3D8316" class="cmn-button cmn-button-followLogin cmn-button-half"><span class="cmnc-label">ログイン</span></a></div>
+    </div>
+
+    <form id="JSID_formGroupResult0071004" method="post" action="/async/usync.do/?sv=NX" class="m-miM19C JSID_optForm_utoken" onsubmit="return false;"><input type="hidden" name="bq" value="" class="JSID_myProcType" /><input type="hidden" name="USYNC_DISP_ID" value="JO_LK_ILMYMESSAGE_V2" /><input type="hidden" name="nikkei_code" value="0071004" /><input type="hidden" name="follow_company_id" value="0071004" /><input type="hidden" name="FOLLOW_ACTION_TYPE" value="1" /><input type="hidden" name="ag" value="201808040042" /><input type="hidden" name="utoken" value="" class="JSID_dataForm_tokenSession" /></form><form id="groupFollowForm0071004" method="post" action="/async/usync.do/.do?sv=NX" class=" JSID_optForm_utoken" onsubmit="return false;"><input type="hidden" name="USYNC_DISP_ID" value="JO_LK_GROUP_FOLLOW" /><input type="hidden" name="bq" value="" class="JSID_myProcType" /><input type="hidden" name="nikkei_code" value="0071004" /><input type="hidden" name="collection_id" value="" /><script type="text/javascript">_nk.my.setGroupFollowCompanyForm('0071004');</script>
+                <input type="hidden" name="ag" value="201808040042" /><input type="hidden" name="sv" value="NX" /><input type="hidden" name="dv" value="pc" /><input type="hidden" name="utoken" value="" class="JSID_dataForm_tokenSession" /></form></div>
+            <div class="l-followBtnWrap a-pv3 a-ml7">
+                <form action="#" method="post" onclick="_nk.click(this,event,[['JSID_actMyBalloon',{JSID_dataMyBalloonId:'#JSID_htmlBalloonJw'}]]);return false" class="jinji-followBtn myc-action">
+            <span class="cmn-button cmn-button-follow">
+                <span class="cmn-icon2 cmn-icon2-plus16c"></span>
+                <span class="cmnc-label">人事情報登録</span>
+            </span>
+        </form><div id="JSID_htmlBalloonJw" class="cmn-hide">
+	    <div class="cmnc-balloonTitle cmnc-balloonTitle-myNews cmnc-balloonTitle-jinji">
+	        <h2 class="cmnc-myNewsLabel">日経人事ウオッチ</h2>
+	    </div>
+	    <p>人事ウオッチ契約の方のみご利用になれます。<br />
+	    気になる企業・人物を登録すれば、<br />
+	    「人事ウオッチ」で人事情報を確認できます。</p>
+	    <div class="cmnc-balloonAction">
+	        <a href="http://pr.nikkei.com/lp/jinji/" class="cmn-button cmn-button-submit cmn-button-half"><span class="cmnc-label">もっと詳しく</span></a><a href="https://www.nikkei.com/etc/accounts/login?dps=1&amp;url=https%3A%2F%2Fwww.nikkei.com%2Fnkd%2Fcompany%2F%3Fba%3D1%26scode%3D8316" class="cmn-button cmn-button-followLogin cmn-button-half"><span class="cmnc-label">ログイン</span></a></div>
+	</div>
+</div>
+            <script type="text/javascript">
+            _nk.sns();
+        </script>
+        <div class="m-snsBtn a-pv3 m-drawerMenuMain_fixedLeftElm">
+            <span class="m-snsBtn_twitter"><a href="javascript:void(0)" onclick="nktool.snsPopup('twitter_share','https://www.nikkei.com/nkd/company/?scode=8316', {JSID_dataTwitter_related:'nikkei_market:日経電子版 マーケット',JSID_dataTwitter_hashtag:'日経会社情報DIGITAL',JSID_dataTitle:' ', JSID_comment:'COMMENT_NOT_EXIST'});return false" title="この企業情報をtwitterでシェアする"><span class="m-wficon twitter"></span></a></span>
+            <span class="m-snsBtn_facebook"><a href="javascript:void(0)" onclick="nktool.snsPopup('facebook_share','https://www.nikkei.com/nkd/company/?scode=8316', {JSID_dataFacebook_hashtag:'#日経会社情報DIGITAL'});return false" title="この企業情報をフェイスブックに追加"><span class="m-wficon facebook"></span></a></span>
+        </div>
+    </div>
+    </div>
+    </div>
+
+<div class="m-stockPriceElm">
+    <dl>
+        <dt class="m-stockPriceElm_title">現在値(15:00)：</dt>
+        <dd class="m-stockPriceElm_value now">4,481<span class="m-stockPriceElm_value_unit"> 円</span></dd>
+    </dl>
+    <dl>
+        <dt class="m-stockPriceElm_title">前日比：</dt>
+        <dd class="m-stockPriceElm_value comparison minus">－65<span class="m-stockPriceElm_supplement"><span class="stc-percent">(－1.43％)</span></span><span class="m-stockPriceElm_note"></span></dd>
+    </dl>
+</div>
+
+<script type="text/javascript">
+
+_nk.showCompanyRecordDataRenewal = function(sTargetIdHigh, sTargetIdLow) {
+
+    
+};
+</script>
+
+<script type="text/javascript">
+    _nk.showCompanyRecordDataRenewal("#JSID_record_renewal_high", "#JSID_record_renewal_low");
+</script>
+
+<div class="m-pageNav a-mb12">
+    <div class="m-pageNav_body">
+        <ul class="m-pageNav_list">
+            <li class="m-pageNav_item"><a href="/nkd/company/?scode=8316&amp;ba=1" class="active" title="三井住友フィナンシャルグループの株価情報"><span class="pageNav_text">トップ</span></a></li>
+            <li class="m-pageNav_item"><a href="/nkd/company/news/?scode=8316&amp;ba=1" class=""><span class="pageNav_text">ニュース</span></a></li>
+            <li class="m-pageNav_item"><a href="/nkd/company/chart/?scode=8316&amp;ba=1" class=""><span class="pageNav_text">チャート</span></a></li>
+                <li class="m-pageNav_item"><a href="/nkd/company/history/dprice/?scode=8316&amp;ba=1" class=""><span class="pageNav_text">株価</span></a></li>
+            <li class="m-pageNav_item"><a href="/nkd/company/kessan/?scode=8316&amp;ba=1" class=""><span class="pageNav_text">業績・財務</span></a></li>
+            <li class="m-pageNav_item"><a href="/nkd/company/kigyo/?scode=8316&amp;ba=1" class=""><span class="pageNav_text">企業発情報</span></a></li>
+            <li class="m-pageNav_item"><a href="/nkd/company/gaiyo/?scode=8316&amp;ba=1" class=""><span class="pageNav_text">企業概要</span></a></li>
+            <li class="m-pageNav_item"><a href="/nkd/company/stockholder/?scode=8316&amp;ba=1" class=""><span class="pageNav_text">株主情報</span></a></li>
+            <li class="m-pageNav_item"><a href="/nkd/company/consensus/?scode=8316&amp;ba=1" class=""><span class="pageNav_text">コンセンサス</span></a></li>
+            </ul>
+    </div>
+</div>
+<div class="m-block stockInfo a-mb20">
+    <div class="m-stockInfo" id="JSID_stockInfo">
+
+        <div class="m-stockInfo_top">
+            <div class="m-stockInfo_top_left">
+                <div class="m-stockInfo_detail m-stockInfo_detail_01">
+    <div class="m-stockInfo_detail_left">
+        <ul class="m-stockInfo_detail_list">
+            <li>
+                <span class="m-stockInfo_detail_title">始値 (9:00)</span>
+                <span class="m-stockInfo_detail_value">4,568<span class="m-stockInfo_detail_unit"> 円</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title">高値 (9:00)</span>
+                <span class="m-stockInfo_detail_value">4,569<span class="m-stockInfo_detail_unit"> 円</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title">安値 (14:59)</span>
+                <span class="m-stockInfo_detail_value">4,481<span class="m-stockInfo_detail_unit"> 円</span></span>
+            </li>
+        </ul>
+    </div>
+    <div class="m-stockInfo_detail_right">
+        <ul class="m-stockInfo_detail_list">
+            <li>
+                <span class="m-stockInfo_detail_title"><a href="/markets/ranking/page/?ba=00&amp;n_cid=DSMMAA13&amp;bd=vol">売買高</a></span>
+                <span class="m-stockInfo_detail_value">6,841,900<span class="m-stockInfo_detail_unit"> 株</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title"><a href="/markets/ranking/page/?ba=00&amp;n_cid=DSMMAA13&amp;bd=perlow_d">予想PER</a><a href="http://www.nikkei.com/help/markets/helpindex.html#6h2" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value">8.9<span class="m-stockInfo_detail_unit"> 倍</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title"><a href="/markets/ranking/page/?ba=00&amp;bd=dividend&amp;n_cid=DSMMAA13">予想配当利回り</a><a href="http://www.nikkei.com/help/markets/helpindex.html#6g" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value">3.79<span class="m-stockInfo_detail_unit"> ％</span></span>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="m-stockInfo_date">2018/8/3</div>
+
+<div class="m-stockInfo_meigarayutaiBtn">
+                    <ul>
+                        <li>
+                            <form action="#" method="post" onclick="_nk.click(this,event,[['JSID_actMyBalloon',{'JSID_dataMyBalloonId':'#JSID_htmlBalloonMeigara'}]]);return false">
+                                    <a href="javascript:void(0)" class="m-stockInfo_folderBtn" >
+                                        <span class="m-stockInfo_folderBtn_icon m-wficon folder"></span>
+                                        <span class="m-stockInfo_folderBtn_text" title="銘柄フォルダに追加">銘柄フォルダに追加</span>
+                                    </a>
+                                </form>
+                                <div id="JSID_htmlBalloonMeigara" class="cmn-hide">
+                                    <div class="cmnc-balloonTitle cmnc-balloonTitle-myNews">
+                                        <h6 class="" style="color:#333333;">銘柄フォルダに追加</h6>
+                                    </div>
+                                    <p>
+                                        
+                                                有料会員・登録会員の方がご利用になれます。<br /> 銘柄フォルダ追加にはログインが必要です。
+                                            </p>
+                                    <div class="cmnc-balloonAction">
+                                            <a href="https://www.nikkei.com/etc/accounts/login?dps=1&amp;url=https%3A%2F%2Fwww.nikkei.com%2Fnkd%2Fcompany%2F%3Fba%3D1%26scode%3D8316" class="cmn-button cmn-button-followLogin cmn-button-half"><span class="cmnc-label">ログイン</span></a></div>
+                                    </div>
+                            </li>
+                        <li>
+                                <span class="m-stockInfo_folderBtn" title="株主優待はありません">
+                                    <span class="m-stockInfo_folderBtn_noactive">株主優待</span>
+                                </span>
+                            </li>
+                        </ul>
+                </div>
+                <ul class="m-stockInfo_newsList">
+        <li><a href="/markets/kabu/stkcomp/?scode=8316&amp;scode2=8306&amp;scode3=7182">同業他社比較</a></li>
+        <li><a href="/markets/ranking/">ランキングから探す</a></li>
+    </ul>
+</div>
+            <div class="m-stockInfo_top_right m-stockInfo_chart">
+    <a href="/nkd/company/chart/?type=3month&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13" id="stockChart" class="m-stockInfo_chart_chart"><img src="/async/async.do/?ae=P_MM_CW_GET_ROSOKU_CHART_SVG&ba=1&chart_style=m1&code=8316&sv=NX&type=CSC02" alt="株価チャート"/></a><ul class="m-stockInfo_chart_list">
+        <li><a href="/nkd/company/chart/?type=day&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">1日</a></li>
+        <li><a href="/nkd/company/chart/?type=3month&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">3ヵ月</a></li>
+        <li><a href="/nkd/company/chart/?type=6month&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">6ヵ月</a></li>
+        <li><a href="/nkd/company/chart/?type=year&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">1年</a></li>
+        <li><a href="/nkd/company/chart/?type=2year&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">2年</a></li>
+        <li><a href="/nkd/company/chart/?type=5year&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">5年</a></li>
+        <li class="cmnc-last"><a href="/nkd/company/chart/?type=10year&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">10年</a></li>
+    </ul>
+    <ul class="m-stockInfo_chart_list">
+        <li><a href="/nkd/company/chart/?type=tick&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">分足</a></li>
+        <li><a href="/nkd/company/chart/?type=hiasi&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">日足</a></li>
+        <li><a href="/nkd/company/chart/?type=shuasi&amp;scode=8316&amp;ba=1&amp;n_cid=DSMMAA13">週足</a></li>
+        <li class="cmnc-last"><a href="/smartchart/?code=8316" target="_blank" class="stc-sc">スマートチャートプラス</a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    _nk.market.ieAdjustSVG("stockChart", 0.5, 1);
+</script>
+</div>
+
+        <div class="m-stockInfo_btn close js-stockInfo_btn">
+            <a href="javascript:void(0)" class="m-stockInfo_btn_open"><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/markets/ico_arrow_main_open.svg" title="株価指標を見る" alt="株価指標を見る" /></a><a href="javascript:void(0)" class="m-stockInfo_btn_close"><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/markets/ico_arrow_main_close.svg" title="株価指標を閉じる" alt="株価指標を閉じる" /></a></div>
+
+        <div class="m-stockInfo_bottom js-stockInfo_accordion" style="display: none;">
+            <if test="false">
+                </if>
+        <if test="true">
+                </if>
+        <div class="m-stockInfo_detail m-stockInfo_detail_02">
+    <div class="m-stockInfo_detail m-stockInfo_detail_left">
+        <ul class="m-stockInfo_detail_list">
+            <li>
+                <span class="m-stockInfo_detail_title"><a href="/markets/ranking/page/?ba=00&amp;n_cid=DSMMAA13&amp;bd=pbrlow">PBR（実績）</a><a href="http://www.nikkei.com/help/markets/helpindex.html#6j" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value">0.59<span class="m-stockInfo_detail_unit"> 倍</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title">ROE（予想） <a href="http://www.nikkei.com/help/markets/helpindex.html#roe" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value">6.70<span class="m-stockInfo_detail_unit"> ％</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title">株式益回り（予想）<a href="http://www.nikkei.com/help/markets/helpindex.html#6r" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value">11.19<span class="m-stockInfo_detail_unit"> ％</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title">普通株式数<a href="http://www.nikkei.com/help/markets/helpindex.html#note03" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value">1,414,443,390<span class="m-stockInfo_detail_unit"> 株</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title"><a href="/markets/ranking/page/?ba=00&amp;n_cid=DSMMAA13&amp;bd=caphigh">時価総額</a><a href="http://www.nikkei.com/help/markets/helpindex.html#6c" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value">6,338,120<span class="m-stockInfo_detail_unit"> 百万円</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title">
+                    株主優待</span>
+                <span class="m-stockInfo_detail_value">
+                    <span class="m-stockInfo_detail_unit">
+                    無</span>
+                </span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="m-stockInfo_detail m-stockInfo_detail_right">
+        <ul class="m-stockInfo_detail_list">
+            <li>
+                <span class="m-stockInfo_detail_title  m-stockInfo_balloonBase js-stockInfo_balloonBase" id="JSID_stockInfoHigh">
+                            <a href="/markets/kabu/newprice/?n_cid=DSMMAA13&amp;ba=G_T1">年初来高値(18/1/15)</a><a href="http://www.nikkei.com/help/markets/helpindex.html#6a" target="_blank" class="m-iconQ">（解説）</a><span class="m-stockInfo_balloon" style="display: none;">１～３月は昨年来高値を表示します</span>
+                        </span>
+                    <span class="m-stockInfo_detail_value ">5,333.0<span class="m-stockInfo_detail_unit"> 円</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title  m-stockInfo_balloonBase js-stockInfo_balloonBase" id="JSID_stockInfoLow">
+                            <a href="/markets/kabu/newprice/?DisplayType=1&amp;n_cid=DSMMAA13&amp;ba=G_T1">年初来安値(18/6/22)</a><a href="http://www.nikkei.com/help/markets/helpindex.html#6a" target="_blank" class="m-iconQ">（解説）</a><span class="m-stockInfo_balloon" style="display: none;">１～３月は昨年来安値を表示します</span>
+                        </span>
+                    <span class="m-stockInfo_detail_value ">4,166.0<span class="m-stockInfo_detail_unit"> 円</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title ">
+                    <a href="/markets/kabu/newprice/?DisplayType=2&amp;n_cid=DSMMAA13">10年来高値(15/8/11)</a><a href="http://www.nikkei.com/help/markets/helpindex.html#6a_10year" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value ">5,770.0<span class="m-stockInfo_detail_unit"> 円</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title ">
+                    <a href="/markets/kabu/newprice/?DisplayType=3&amp;n_cid=DSMMAA13">10年来安値(11/11/10)</a><a href="http://www.nikkei.com/help/markets/helpindex.html#6a_10year" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value ">2,003.0<span class="m-stockInfo_detail_unit"> 円</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title">売買単位</span>
+                <span class="m-stockInfo_detail_value">100<span class="m-stockInfo_detail_unit"> 株</span></span>
+            </li>
+            <li>
+                <span class="m-stockInfo_detail_title">最低購入金額 <a href="http://www.nikkei.com/help/markets/helpindex.html#6s" target="_blank" class="m-iconQ">（解説）</a></span>
+                <span class="m-stockInfo_detail_value">448,100<span class="m-stockInfo_detail_unit"> 円</span></span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+_nk.stockInfoBallonBaseOver = function (sTargetId) {
+    var oNk = _nk;
+    var $Target = $(sTargetId);
+
+    $Target.bind('mouseover', function(e){
+        $Target.find('.m-stockInfo_balloon').show();
+    });
+
+    $Target.bind('mouseout', function(e){
+    	$Target.find('.m-stockInfo_balloon').hide();
+    });
+
+};
+</script>
+<script type="text/javascript">
+    _nk.stockInfoBallonBaseOver("#JSID_stockInfoHigh");
+    _nk.stockInfoBallonBaseOver("#JSID_stockInfoLow");
+</script>
+</div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+
+_nk.stockInfoAccordion = function (sTargetId) {
+    var oNk = _nk;
+    var $Target = $(sTargetId);
+
+    // イベント設定
+    var $StockInfoButton = $Target.find('.js-stockInfo_btn > a');
+    $StockInfoButton.bind('click', function(e){
+        e.preventDefault();
+        var $btn = $(this).parent('.js-stockInfo_btn');
+
+        $btn.siblings('.js-stockInfo_accordion').slideToggle(200, function(){
+            if($btn.hasClass('open')){
+                $btn.removeClass('open').addClass('close');
+                _nk.putCookie({JSID_dataSetCookie_name:"ap",JSID_dataSetCookie_value:"0",JSID_dataSetCookie_expire:_nk.COOKIE_EXPIRE_LONG});
+            }else{
+                $btn.removeClass('close').addClass('open');
+                _nk.putCookie({JSID_dataSetCookie_name:"ap",JSID_dataSetCookie_value:"1",JSID_dataSetCookie_expire:_nk.COOKIE_EXPIRE_LONG});
+            }
+        });
+    });
+};
+</script>
+<script type="text/javascript">
+    _nk.stockInfoAccordion("#JSID_stockInfo");
+    _nk.stockInfoAccordionKeep();
+    _nk.setMeigaraFolder();
+    _nk.setDoublePopup();
+</script>
+
+<div class="m-block news a-mb40">
+        <div class="m-articleFrame">
+
+            <div class="m-articleFrame_header">
+                    <div class="m-headline">
+                        <h2 class="m-headline_text">
+                            <a href="/nkd/company/news/?n_cid=DSMMAA13&amp;scode=8316&amp;ba=1" id="JSID_ListLinkTitle">ニュース</a><span class="a-fs12 a-fn">　　※ニュースには当該企業と関連のない記事が含まれている場合があります。</span>
+                            </h2>
+                        <div class="m-headline_aside">
+                            <a href="/nkd/company/news/?n_cid=DSMMAA13&amp;scode=8316&amp;ba=1" id="JSID_ListLinkSide"><span class="a-vam">一覧</span><span class="m-wficon arrowRight"></span></a></div>
+                    </div>
+                </div>
+            <div class="m-articleFrame_body">
+                <div class="m-tabArticle js-tabArticle twoColsSp" id="JSID_cwCompanyNews">
+                    <ul class="m-tabArticle_tab">
+                            <li class="m-tabArticle_tab_item selected">
+                                <a href="javascript:void(0);" onclick="_nk.market.changeView($('#JSID_cwCompanyNews'), '.m-tabArticle_tab_item', '.m-tabArticle_article_item', 0);_nk.market.change_url_stk($('#JSID_ListLinkTitle'),$('#JSID_ListLinkSide'),$('#JSID_ListLinkMore'),'/nkd/company/news/?n_cid=DSMMAA13&scode=8316&ba=1&DisplayType=1')"><span>最新</span></a></li>
+                            <li class="m-tabArticle_tab_item">
+                                <a href="javascript:void(0);" onclick="_nk.market.changeView($('#JSID_cwCompanyNews'), '.m-tabArticle_tab_item', '.m-tabArticle_article_item', 1);_nk.market.change_url_stk($('#JSID_ListLinkTitle'),$('#JSID_ListLinkSide'),$('#JSID_ListLinkMore'),'/nkd/company/news/?n_cid=DSMMAA13&scode=8316&ba=1&DisplayType=2')"><span>朝夕刊</span></a></li>
+                            <li class="m-tabArticle_tab_item">
+                                <a href="javascript:void(0);" onclick="_nk.market.changeView($('#JSID_cwCompanyNews'), '.m-tabArticle_tab_item', '.m-tabArticle_article_item', 2);_nk.market.change_url_stk($('#JSID_ListLinkTitle'),$('#JSID_ListLinkSide'),$('#JSID_ListLinkMore'),'/nkd/company/news/?n_cid=DSMMAA13&scode=8316&ba=1&DisplayType=3')"><span>人事</span></a></li>
+                            <li class="m-tabArticle_tab_item">
+                                    <a href="javascript:void(0);" onclick="_nk.market.changeView($('#JSID_cwCompanyNews'), '.m-tabArticle_tab_item', '.m-tabArticle_article_item', 3);_nk.market.change_url_stk($('#JSID_ListLinkTitle'),$('#JSID_ListLinkSide'),$('#JSID_ListLinkMore'),'/nkd/company/news/?n_cid=DSMMAA13&scode=8316&ba=1&DisplayType=4')"><span>コラム・解説</span></a></li>
+                            </ul>
+                    <div class="m-tabArticle_article">
+                        <div class="m-tabArticle_article_item selected">
+                            <div class="m-tabArticle_article_item_body" >
+                                <div class="m-listFormat">
+                                        <ul class="m-listFormat_body">
+                                            <li class="m-listFormat_item">
+                                                    <span class="m-listItem">
+                                                        <span class="m-listItem_text">
+                                                            <span class="m-listItem_text_listStyle"></span>
+                                                            <span class="m-listItem_text_text">
+                                                                <a href="/nkd/company/article/?DisplayType=1&amp;n_cid=DSMMAA13&amp;ng=DGKKZO33627050R30C18A7TJ2000&amp;scode=8316&amp;ba=1">ＡＩ接客、費用５分の１に</a><span class="m-iconMember">［有料会員限定］</span></span>
+                                                        </span>
+                                                        <span class="m-listItem_time">
+                                                            8/1付&nbsp;朝刊</span>
+                                                    </span>
+                                                </li>
+                                            <li class="m-listFormat_item">
+                                                    <span class="m-listItem">
+                                                        <span class="m-listItem_text">
+                                                            <span class="m-listItem_text_listStyle"></span>
+                                                            <span class="m-listItem_text_text">
+                                                                <a href="/nkd/company/article/?DisplayType=1&amp;n_cid=DSMMAA13&amp;ng=DGKKZO33573090Q8A730C1EE9000&amp;scode=8316&amp;ba=1">三井住友ＦＧ６％減益</a><span class="m-iconMember">［有料会員限定］</span></span>
+                                                        </span>
+                                                        <span class="m-listItem_time">
+                                                            7/31付&nbsp;朝刊</span>
+                                                    </span>
+                                                </li>
+                                            <li class="m-listFormat_item">
+                                                    <span class="m-listItem">
+                                                        <span class="m-listItem_text">
+                                                            <span class="m-listItem_text_listStyle"></span>
+                                                            <span class="m-listItem_text_text">
+                                                                <a href="/nkd/company/article/?DisplayType=1&amp;n_cid=DSMMAA13&amp;ng=DGXLASFL30HQH_Q8A730C1000000&amp;scode=8316&amp;ba=1">三井住友ＦＧの４～６月期、純利益６％減　法人税が増加</a></span>
+                                                        </span>
+                                                        <span class="m-listItem_time">
+                                                            7/30</span>
+                                                    </span>
+                                                </li>
+                                            <li class="m-listFormat_item">
+                                                    <span class="m-listItem">
+                                                        <span class="m-listItem_text">
+                                                            <span class="m-listItem_text_listStyle"></span>
+                                                            <span class="m-listItem_text_text">
+                                                                <a href="/nkd/company/article/?DisplayType=1&amp;n_cid=DSMMAA13&amp;ng=DGKKZO33528900X20C18A7DTB000&amp;scode=8316&amp;ba=1">30日の決算発表</a><span class="m-iconMember">［有料会員限定］</span></span>
+                                                        </span>
+                                                        <span class="m-listItem_time">
+                                                            7/28付&nbsp;朝刊</span>
+                                                    </span>
+                                                </li>
+                                            <li class="m-listFormat_item">
+                                                    <span class="m-listItem">
+                                                        <span class="m-listItem_text">
+                                                            <span class="m-listItem_text_listStyle"></span>
+                                                            <span class="m-listItem_text_text">
+                                                                <a href="/nkd/company/article/?DisplayType=1&amp;n_cid=DSMMAA13&amp;ng=DGKKZO33397570V20C18A7TJ1000&amp;scode=8316&amp;ba=1">スマホ決済 日本乱戦</a><span class="m-iconMember">［有料会員限定］</span></span>
+                                                        </span>
+                                                        <span class="m-listItem_time">
+                                                            7/26付&nbsp;朝刊</span>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                    </div>
+                                    <div class="m-reportersInfo">
+                                                        <span class="m-reportersInfo_text">
+                                                            <a href="/nkd/company/article/?DisplayType=4&amp;n_cid=DSMMAA13&amp;ng=DGXMZO31775480U8A610C1000000&amp;scode=8316&amp;ba=1">【コラム・解説】関西みらいＦＧ、３行統合の事務削減効果</a><span class="m-iconMember">［有料会員限定］</span></span>
+                                                        <span class="m-reportersInfo_time">6/15</span>
+                                                    </div>
+                                                </div>
+                        </div>
+                        <div class="m-tabArticle_article_item">
+                                <div class="m-tabArticle_article_item_body" style="display:none;">
+                                    <script type="text/javascript" src='/async/async.do/?DisplayType=2&amp;ae=P_KL_CW_COMPANY_NEWSJS&amp;companyCommonParam=scode%3D8316%26ba%3D1&amp;cw_a=A07&amp;nik_code=0071004&amp;sv=NX'></script>
+                                </div>
+                            </div>
+                            <div class="m-tabArticle_article_item">
+                                <div class="m-tabArticle_article_item_body" style="display:none;">
+                                    <script type="text/javascript" src='/async/async.do/?SERVICE_NAME=%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E3%83%95%E3%82%A3%E3%83%8A%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97&amp;ae=P_KL_CW_COMPANY_NEWSJS&amp;companyCommonParam=scode%3D8316%26ba%3D1&amp;cw_a=A07&amp;nik_code=0071004&amp;scode=8316&amp;sv=NX'></script>
+                                    </div>
+                            </div>
+                            <div class="m-tabArticle_article_item">
+                                    <div class="m-tabArticle_article_item_body" style="display:none;">
+                                        <div class="m-listFormat">
+                                            <ul class="m-listFormat_body">
+                                                <li class="m-listFormat_item">
+                                                            <span class="m-listItem">
+                                                                <span class="m-listItem_text">
+                                                                    <span class="m-listItem_text_listStyle"></span>
+                                                                    <span class="m-listItem_text_text">
+                                                                        <a href="/nkd/company/article/?DisplayType=4&amp;n_cid=DSMMAA13&amp;ng=DGXMZO31775480U8A610C1000000&amp;scode=8316&amp;ba=1">関西みらいＦＧ、３行統合の事務削減効果</a><span class="m-iconMember">［有料会員限定］</span></span>
+                                                                </span>
+                                                                <span class="m-listItem_time">6/15</span>
+                                                            </span>
+                                                        </li>
+                                                    <li class="m-listFormat_item">
+                                                            <span class="m-listItem">
+                                                                <span class="m-listItem_text">
+                                                                    <span class="m-listItem_text_listStyle"></span>
+                                                                    <span class="m-listItem_text_text">
+                                                                        <a href="/nkd/company/article/?DisplayType=4&amp;n_cid=DSMMAA13&amp;ng=DGXMZO16517450X10C17A5000000&amp;scode=8316&amp;ba=1">三井住友ＦＧ、強みに陰り？　経費率に課題</a><span class="m-iconMember">［有料会員限定］</span></span>
+                                                                </span>
+                                                                <span class="m-listItem_time">2017/5/19</span>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                <div class="m-seeMore a-mt16">
+                        <a href="/nkd/company/news/?n_cid=DSMMAA13&amp;scode=8316&amp;ba=1" id="JSID_ListLinkMore"><span class="a-vam">もっと見る</span><span class="m-wficon arrowRight"></span></a></div>
+                </div>
+        </div>
+    </div>
+<div class="m-block informationFromCompany a-mb40">
+        <div class="m-articleFrame">
+            <div class="m-articleFrame_header">
+                <div class="m-headline">
+                    <h2 class="m-headline_text"><a href="/nkd/company/kigyo/?n_cid=DSMMAA13&amp;scode=8316&amp;ba=1" id="JSID_ListLinkTitleCI">企業発情報</a></h2>
+                        <div class="m-headline_aside"><a href="/nkd/company/disclose/?n_cid=DSMMAA13&amp;scode=8316&amp;ba=1" id="JSID_ListLinkSideCI"><span class="a-vam">一覧</span><span class="m-wficon arrowRight"></span></a></div>
+                        </div>
+            </div>
+
+            <div class="m-articleFrame_body">
+                <div class="m-tabArticle js-tabArticle twoColsSp" id="JSID_cwCompanyInfo">
+                    <ul class="m-tabArticle_tab">
+                                <li class="m-tabArticle_tab_item selected">
+                                    <a href="javascript:void(0)" onclick="_nk.market.changeView($('#JSID_cwCompanyInfo'), '.m-tabArticle_tab_item', '.m-tabArticle_article_item', 0);_nk.market.change_url_stk($('#JSID_ListLinkTitleCI'),$('#JSID_ListLinkSideCI'),$('#JSID_ListLinkMoreCI'),'/nkd/company/disclose/?n_cid=DSMMAA13&scode=8316&ba=1')"><span>適時開示速報</span></a></li>
+                                <li class="m-tabArticle_tab_item">
+	                                    <a href="javascript:void(0)" onclick="_nk.market.changeView($('#JSID_cwCompanyInfo'), '.m-tabArticle_tab_item', '.m-tabArticle_article_item', 1);_nk.market.change_url_stk($('#JSID_ListLinkTitleCI'),$('#JSID_ListLinkSideCI'),$('#JSID_ListLinkMoreCI'),'/nkd/company/disclose/?n_cid=DSMMAA13&scode=8316&ba=1')"><span>適時開示（決算）</span></a></li>
+                                <li class="m-tabArticle_tab_item">
+                                    <a href="javascript:void(0)" onclick="_nk.market.changeView($('#JSID_cwCompanyInfo'), '.m-tabArticle_tab_item', '.m-tabArticle_article_item', 2);_nk.market.change_url_stk($('#JSID_ListLinkTitleCI'),$('#JSID_ListLinkSideCI'),$('#JSID_ListLinkMoreCI'),'/nkd/company/pressrelease/?n_cid=DSMMAA13&scode=8316&ba=1')"><span>プレスリリース</span></a></li>
+                                <li class="m-tabArticle_tab_item">
+                                    <a href="javascript:void(0)" onclick="_nk.market.changeView($('#JSID_cwCompanyInfo'), '.m-tabArticle_tab_item', '.m-tabArticle_article_item', 3);_nk.market.change_url_stk($('#JSID_ListLinkTitleCI'),$('#JSID_ListLinkSideCI'),$('#JSID_ListLinkMoreCI'),'/nkd/company/ednr/?n_cid=DSMMAA13&scode=8316&ba=1')"><span>有価証券報告書</span></a></li>
+                            </ul>
+                        <div class="m-tabArticle_article">
+                            <div class="m-tabArticle_article_item selected">
+        <div class="m-tabArticle_article_item_body" style="display:block;">
+            <div class="m-listFormat">
+
+                <ul class="m-listFormat_body">
+
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b7njzp&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/b7njzp/" target="_blank">平成31年3月期 第1四半期決算短信〔日本基準〕(連結)</a><a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b7njzp&amp;t=https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20180730/b7njzp/081220180724484245.zip" target="_blank">[XBRL]</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        7/30 16:00</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b78hxy&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/b78hxy/" target="_blank">株式報酬としての新株式発行について</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        7/17 17:00</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b6gixu&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/b6gixu/" target="_blank">コーポレート・ガバナンスに関する報告書 2018/07/11</a><a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b6gixu&amp;t=https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20180711/b6gixu/101220180704476674.zip" target="_blank">[XBRL]</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        7/11 15:08</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b5mbm0&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/b5mbm0/" target="_blank">米国証券取引委員会宛年次報告書（Form 20-F）の提出について</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        6/29 8:45</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b5mbkr&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/b5mbkr/" target="_blank">自己株式の取得状況および取得終了ならびに自己株式の消却に関するお知らせ</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        6/20 16:30</span>
+                                </span>
+                            </li>
+                        </ul>
+                </div>
+        </div>
+    </div>
+
+<div class="m-tabArticle_article_item ">
+        <div class="m-tabArticle_article_item_body" style="display:none;">
+            <div class="m-listFormat">
+
+                <ul class="m-listFormat_body">
+
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b7njzp&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/b7njzp/" target="_blank">平成31年3月期 第1四半期決算短信〔日本基準〕(連結)</a><a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b7njzp&amp;t=https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20180730/b7njzp/081220180724484245.zip" target="_blank">[XBRL]</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        7/30 16:00</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b0vmkg&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/b0vmkg/" target="_blank">平成30年3月期 決算短信〔日本基準〕（連結）</a><a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b0vmkg&amp;t=https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20180514/b0vmkg/081220180402403520.zip" target="_blank">[XBRL]</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        5/14 16:30</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=b2of50&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/b2of50/" target="_blank">剰余金の配当に関するお知らせ</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        5/14 16:30</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=awqo9f&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/awqo9f/" target="_blank">平成30年3月期 第3四半期決算短信〔日本基準〕(連結)</a><a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=awqo9f&amp;t=https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20180131/awqo9f/081220180122453971.zip" target="_blank">[XBRL]</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        1/31 17:30</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=ar1qtp&amp;t=https://www.nikkei.com/nkd/disclosure/tdnr/ar1qtp/" target="_blank">平成30年3月期 第2四半期(中間期)決算短信〔日本基準〕(連結)</a><a href="https://www.nikkei.com/markets/company/sys/redirect_dis.aspr?ano=ar1qtp&amp;t=https://www.nikkei.com/markets/ir/irftp/data/tdnr/tdnetg3/20171114/ar1qtp/081220171018492813.zip" target="_blank">[XBRL]</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        17/11/14 17:30</span>
+                                </span>
+                            </li>
+                        </ul>
+                </div>
+        </div>
+    </div>
+
+<div class="m-tabArticle_article_item ">
+        <div class="m-tabArticle_article_item_body" style="display:none;">
+            <div class="m-listFormat">
+
+                <ul class="m-listFormat_body">
+
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="/nkd/company/article/?DisplayType=11&amp;n_cid=DSMMAA13&amp;ng=DGXLRSP486847_R00C18A8000000&amp;scode=8316&amp;ba=1">三井住友ＦＧなど、金融庁「FinTech 実証実験ハブ」が完了－ＡＩによる通話録音記録確認の高度化・効率化</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        8/1</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="/nkd/company/article/?DisplayType=11&amp;n_cid=DSMMAA13&amp;ng=DGXLRSP485184_T10C18A7000000&amp;scode=8316&amp;ba=1">三井住友FG、セールスフォース・ドットコムが提供するクラウド型マーケティングプラットフォームの利用を開始</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        7/13</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="/nkd/company/article/?DisplayType=11&amp;n_cid=DSMMAA13&amp;ng=DGXLRSP479471_R10C18A5000000&amp;scode=8316&amp;ba=1">三井住友FG・大和証券グループ本社・三井住友海上・住友生命、三井住友アセットマネジメントと大和住銀の合併で基本合意</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        5/11</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="/nkd/company/article/?DisplayType=11&amp;n_cid=DSMMAA13&amp;ng=DGXLRSP478962_Y8A500C1000000&amp;scode=8316&amp;ba=1">三井住友FG、SMBCグループのキャッシュレス決済戦略について発表</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        5/8</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="/nkd/company/article/?DisplayType=11&amp;n_cid=DSMMAA13&amp;ng=DGXLRSP478964_Y8A500C1000000&amp;scode=8316&amp;ba=1">三井住友FGとGMO－PG、キャッシュレス決済推進で次世代決済プラットフォーム事業に関する新たな提携協議を開始</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        5/8</span>
+                                </span>
+                            </li>
+                        </ul>
+                </div>
+        </div>
+    </div>
+
+<div class="m-tabArticle_article_item ">
+        <div class="m-tabArticle_article_item_body" style="display:none;">
+            <div class="m-listFormat">
+
+                <ul class="m-listFormat_body">
+
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/nkd/disclosure/ednr/20180801S100DQ01/" target="_blank">発行登録書（株券､社債券等）</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        8/1</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/nkd/disclosure/ednr/20180709S100DLUG/" target="_blank">自己株券買付状況報告書（法２４条の６第１項に基づくもの）</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        7/9</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/nkd/disclosure/ednr/20180703S100DKM0/" target="_blank">訂正発行登録書</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        7/3</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/nkd/disclosure/ednr/20180628S100DH90/" target="_blank">確認書</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        6/28</span>
+                                </span>
+                            </li>
+                        <li class="m-listFormat_item">
+                                <span class="m-listItem">
+                                    <span class="m-listItem_text">
+                                        <span class="m-listItem_text_listStyle"></span>
+
+                                        <span class="m-listItem_text_text">
+                                                <a href="https://www.nikkei.com/nkd/disclosure/ednr/20180628S100DHCU/" target="_blank">内部統制報告書 ‐ 第16期（平成29年4月1日 ‐ 平成30年3月31日）</a></span>
+                                        </span>
+
+                                    <span class="m-listItem_time">
+                                        6/28</span>
+                                </span>
+                            </li>
+                        </ul>
+                </div>
+        </div>
+    </div>
+
+</div>
+                    </div>
+                <div class="m-seeMore a-mt16">
+                        <a href="/nkd/company/disclose/?n_cid=DSMMAA13&amp;scode=8316&amp;ba=1" id="JSID_ListLinkMoreCI"><span class="a-vam">もっと見る</span><span class="m-wficon arrowRight"></span></a></div>
+                </div>
+        </div>
+    </div>
+<div class="m-block resultsAndFinancial a-mb40">
+    <div class="m-articleFrame">
+
+        <div class="m-articleFrame_header">
+            <div class="m-headline">
+                <h2 class="m-headline_text">
+                    <a href="/nkd/company/kessan/?n_cid=DSMMAA13&scode=8316&ba=1">業績･財務</a>
+                </h2>
+                <div class="m-headline_aside"><a href="/nkd/company/kessan/?n_cid=DSMMAA13&amp;scode=8316&amp;ba=1"><span class="a-vam">一覧</span><span class="m-wficon arrowRight"></span></a></div>
+            </div>
+        </div>
+
+        <div class="m-articleFrame_body">
+
+            <div class="m-block comment a-mb40">
+                <div class="m-articleFrame">
+                    <div class="m-articleFrame_header">
+                        <div class="m-headlineSmall">
+                                <h3 class="m-headlineSmall_text">業績コメント</h3>
+                            </div>
+                        </div>
+                    <div class="m-articleFrame_body">
+                        <div class="m-planRegist02" >
+        <p class="">こちらは有料会員のみご覧になれます。　<a href="javascript:void(0)" id="JSID_M_PLAN_COMMENT_MK">料金プラン・お申し込みはこちら</a>
+        </p>
+    </div>
+
+    <script type="text/javascript">
+	_nk.putUrl("#JSID_M_PLAN_COMMENT_MK",{JSID_urlTargettype:'href',JSID_urlTargeturl:'http://www.nikkei.com/r123/?ak=' + encodeURIComponent(location.href) + ''});
+	</script>
+</div>
+                </div>
+            </div>
+        <div class="m-innerBlock">
+                <div class="m-articleFrame">
+                    <div class="m-articleFrame_header">
+                        <div class="m-headlineSmall">
+                            <h3 class="m-headlineSmall_text">売上高・当期利益</h3>
+                        </div>
+                    </div>
+                    <div class="m-articleFrame_body">
+                        <script type="text/javascript" >
+_nk.getSvgGraph = function(sTargetId, targetURL, oOpt)
+{
+
+    var oNk = _nk;
+    var $Base = $(sTargetId);
+    for(key in oOpt){
+        targetURL = targetURL + "&" + key + "=" +  oOpt[key];
+    }
+    
+    if (window.matchMedia != undefined && window.matchMedia('screen and (max-width:639px)').matches) {
+        
+        targetURL = targetURL + "&" + "chart_style=s1";
+    }
+
+    $Base.html('<img src=\"//assets.nikkei.jp/release/v3.1.38/parts/ds/images/nkd/common/img_loading.svg\" data-original=\"' + targetURL + '\">');
+
+    $('#'+sTargetId+' img').lazyload();
+
+    $Base.children('img').error(function(){
+        if ($Base.parent().is('a')) {
+            
+            var divTargetId = $Base.selector.replace("#","");
+            $Base.parent('a').replaceWith('<div id="' + divTargetId + '" class="m-figure_inner">現在、描画できません。</div>');
+        }
+        else {
+            
+            $Base.html("現在、描画できません。");
+        }
+    });
+
+    return;
+};
+</script>
+
+<div class="m-figure a-mb20">
+            <a href="/nkd/company/kessan/?scode=8316&amp;ba=1#performanceFinancial"><div id="JSID_finHighChart" class="m-figure_inner">
+                        </div></a></div>
+    <script type="text/javascript">
+    _nk.getSvgGraph('#JSID_finHighChart','/async/async.do/?ae=P_MM_CW_GET_CHART_SVG&sv=NX',{'scode':'8316','type':'CA002'});
+</script>
+<div class="m-planRegist02 a-mt24 a-mb24" >
+        <p class="">日経記者による業績予想は有料会員のみご覧になれます。　<a href="javascript:void(0)" id="JSID_M_PLAN_KESSAN_TOP_STK">料金プラン・お申し込みはこちら</a>
+        </p>
+    </div>
+
+    <script type="text/javascript">
+	_nk.putUrl("#JSID_M_PLAN_KESSAN_TOP_STK",{JSID_urlTargettype:'href',JSID_urlTargeturl:'http://www.nikkei.com/r123/?ak=' + encodeURIComponent(location.href) + ''});
+	</script>
+</div>
+                </div>
+            </div>
+
+            <div class="m-innerBlock">
+        <div class="m-articleFrame">
+            <div class="m-articleFrame_header">
+                <div class="m-headlineSmall">
+                    <h3 class="m-headlineSmall_text">セグメント</h3>
+                </div>
+            </div>
+
+            <div class="m-articleFrame_body">
+                <div id="JSID_segPieChart" class="m-figure_inner m-planRegistBase">
+            <img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/nkd/common/img_CB001.png" title="直近期の売上高円グラフ" alt="直近期の売上高円グラフ" /><div class="m-planRegist">
+                <div>
+                    <div>
+                        <div>
+                            <p class="m-planRegist_text">
+
+こちらは有料会員のみご覧になれます。</p>
+    <p class="m-planRegist_link"><a href="javascript:void(0)" id="JSID_R1FT_PIE_GRAPH">料金プラン・お申し込みはこちら</a></p>
+    
+    <script type="text/javascript">
+	_nk.putUrl("#JSID_R1FT_PIE_GRAPH",{JSID_urlTargettype:'href',JSID_urlTargeturl:'http://www.nikkei.com/r123/?ak=' + encodeURIComponent(location.href) + ''});
+	</script>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript">
+    var r3check = 'false';
+    if (r3check == 'true'){
+        _nk.getSvgGraph('#JSID_segPieChart','',{'nik_code':'0071004','type':'CB001'});
+    }
+</script>
+
+</div>
+        </div>
+    </div>
+<div class="m-seeMore a-mt16">
+                <a href="/nkd/company/kessan/?n_cid=DSMMAA13&amp;scode=8316&amp;ba=1"><span class="a-vam">もっと見る</span><span class="m-wficon arrowRight"></span></a></div>
+        </div>
+
+    </div>
+</div>
+<div id= "needslist" class="m-block st-needSeach">
+        <div class="m-headline">
+            <h2 class="m-headline_text"><a href="/markets/company/search/gyoshu-needs/?n_cid=DSMMAA13">業界から銘柄を探す</a></h2>
+            <div class="m-headline_aside">
+                <a class="cmn-help" href="http://www.nikkei.com/help/markets/helpindex.html#gyoshu-needs" target="_blank">（解説）</a>
+            </div>
+        </div>
+        <dl class="m-st-needSeach_list">
+            <dt class="m-st-needSeach_list_major_division">
+                        三井住友フィナンシャルグループ&#12288;（カッコ内は社数）
+                    </dt>
+                    <dd class="m-st-needSeach_list_body">
+                        <p class="m-st-needSeach_list_middle_division m-st-needSeach_main">
+                            <a href="/nkd/industry/stocklist/?n_cid=DSMMAA13&amp;n_m_code=121" class="m-st-needSeach_list_link">銀行(100)</a></p>
+                        <ul class="m-st-needSeach_list_small_division">
+                    <li class="m-st-needSeach_main">
+                            <a href="/nkd/industry/stocklist/?n_cid=DSMMAA13&amp;n_m_code=121&amp;n_s_code=0671" class="m-st-needSeach_list_link" title="都市銀行（全国展開する普通銀行）。">都市銀行(8)&nbsp;&nbsp;※主力事業</a></li>
+            </ul>
+                            </dd>
+                            <dd class="m-st-needSeach_list_body m-st-needSeach_list_last">
+                                <p class="m-st-needSeach_list_middle_division">
+                            <a href="/nkd/industry/stocklist/?n_cid=DSMMAA13&amp;n_m_code=122" class="m-st-needSeach_list_link">証券(27)</a></p>
+                        <ul class="m-st-needSeach_list_small_division">
+                    <li>
+                            <a href="/nkd/industry/stocklist/?n_cid=DSMMAA13&amp;n_m_code=122&amp;n_s_code=0681" class="m-st-needSeach_list_link" title="店舗設置型の証券業を中心に営む。">証券(20)</a></li>
+            </ul>
+                </dd>
+            </dl>
+
+        <div class="st-need_keyword_block">
+                <h5 class="st-need_keyword_block_title"><a href="/markets/kabu/stkcomp/?scode=8316&amp;scode2=8306&amp;scode3=7182">同業他社</a>：</h5>
+                <div class="st-need_keyword_block_list">
+                    <a href="/nkd/company/?n_cid=DSMMAA13&amp;scode=8306" class="st-need_keyword_block_link">三菱ＵＦＪフィナンシャル・グループ</a><a href="/nkd/company/?n_cid=DSMMAA13&amp;scode=7182" class="st-need_keyword_block_link">ゆうちょ銀行</a><a href="/nkd/company/?n_cid=DSMMAA13&amp;scode=8411" class="st-need_keyword_block_link">みずほフィナンシャルグループ</a><a href="/nkd/company/?n_cid=DSMMAA13&amp;scode=8308" class="st-need_keyword_block_link">りそなホールディングス</a><a href="/nkd/company/?n_cid=DSMMAA13&amp;scode=8304" class="st-need_keyword_block_link">あおぞら銀行</a><a href="/nkd/company/?n_cid=DSMMAA13&amp;scode=8303" class="st-need_keyword_block_link end">新生銀行</a></div></div><div class="m-st-needSeach_input">
+            <div style="float:right;">
+                <span class="m-st-needSeach_input_text">提供：</span>
+                <span class="m-st-needSeach_input_img"><a href="http://nvs.nikkei.co.jp/" target="_blank"><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/nkd/common/logo_vs.svg" width="200" title="企業・業界を素早く、多面的に分析できるサービス、日経ValueSearch。" alt="企業・業界を素早く、多面的に分析できるサービス、日経ValueSearch" /></a></span>
+            </div>
+        </div>
+
+    </div><div id= "needslist" class="m-block st-needSeach">
+        <div class="m-headline">
+            <h2 class="m-headline_text">関連銘柄を探す</h2>
+        </div>
+        <div class="m-headlineSmall">
+                <h3 class="m-headlineSmall_text">この銘柄を見た人はこんな銘柄も見ています</h3>
+            </div>
+            <div class="st-need_keyword_block">
+                             <div class="st-need_keyword_block_list">
+                                 <a href="/nkd/company/?scode=8306" class="st-need_keyword_block_link">三菱ＵＦＪフィナンシャル・グループ</a><a href="/nkd/company/?scode=8411" class="st-need_keyword_block_link">みずほフィナンシャルグループ</a><a href="/nkd/company/?scode=8031" class="st-need_keyword_block_link">三井物産</a><a href="/nkd/company/?scode=7751" class="st-need_keyword_block_link">キヤノン</a><a href="/nkd/company/?scode=7203" class="st-need_keyword_block_link">トヨタ自動車</a><a href="/nkd/company/?scode=8058" class="st-need_keyword_block_link">三菱商事</a><a href="/nkd/company/?scode=7201" class="st-need_keyword_block_link">日産自動車</a><a href="/nkd/company/?scode=4502" class="st-need_keyword_block_link">武田薬品工業</a><a href="/nkd/company/?scode=8604" class="st-need_keyword_block_link">野村ホールディングス</a><a href="/nkd/company/?scode=2914" class="st-need_keyword_block_link end">日本たばこ産業</a></div>
+                         </div>
+                <br>
+            <div class="m-headlineSmall">
+                        <h3 class="m-headlineSmall_text">この銘柄を組み入れている投資信託</h3>
+                    </div>
+                    <div class="st-need_keyword_block">
+                        <div class="st-need_keyword_block">
+                            <div class="st-need_keyword_block_list">
+                                <a href="/nkd/fund/?fcode=0131J083" class="st-need_keyword_block_link">ＮＥＸＴ ＦＵＮＤＳ 銀行</a><a href="/nkd/fund/?fcode=01315024" class="st-need_keyword_block_link">東証銀行業株価指数連動型上場投資信託</a><a href="/nkd/fund/?fcode=0431I087" class="st-need_keyword_block_link">ダイワ上場投信・銀行</a><a href="/nkd/fund/?fcode=04315023" class="st-need_keyword_block_link">ダイワ上場投信－東証銀行業株価指数</a><a href="/nkd/fund/?fcode=04314065" class="st-need_keyword_block_link">ダイワ金融新時代ファンド</a><a href="/nkd/fund/?fcode=40311167" class="st-need_keyword_block_link">日本企業外貨建て社債ファンド２０１６０７</a><a href="/nkd/fund/?fcode=22314156" class="st-need_keyword_block_link">ＳＭＢＣ世界優先証券ファンド２０１５０６</a><a href="/nkd/fund/?fcode=03311162" class="st-need_keyword_block_link">ＴＨＥ日本株オープン（円投資型）</a><a href="/nkd/fund/?fcode=03311117" class="st-need_keyword_block_link">ネット証券専用ＦＳ 日本応援株Ｆ(日本株)</a><a href="/nkd/fund/?fcode=03312162" class="st-need_keyword_block_link end">ＴＨＥ日本株オープン（米ドル投資型）</a></div>
+                        </div>
+                    </div>
+                </div>
+<div class="m-block seachCompay_common w668">
+    <div class="top-group">
+        <script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/nkds.suggest.min.js"></script><div class="seachCompay_common_title">
+    <a href="/nkd/"><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/nkd/common/nkd_logo_black.svg" title="日経会社情報DIGITAL" alt="日経会社情報DIGITAL" /></a></div>
+<div class="m-article">
+    <form method="get" action="/nkd/search/" accept-charset="UTF-8" class="m-searchForm_form" onsubmit="return false;"><div class="seachCompay_common_text">
+            <span class="m-wficon search" title="検索"></span>
+            <input type="text" name="searchKeyword" maxlength="100" value="" id="searchKeywordCompany" class="cmnc-input_text" /><input type="hidden" name="query_code" value="" id="query_codeCompany" /><input type="submit" onclick="_nk.click(this, event, [['JSID_actFormSubmit']]); return false;" class="cmnc-input_button" title="検索" alt="検索" value="検索" />
+        </div>
+    </form><script type="text/javascript" >
+        _nk.suggest.company2017("#searchKeywordCompany", "#query_codeCompany");
+    </script>
+</div>
+
+
+</div>
+    <div class="bottom-group">
+        <div class="a-flr seachCompay_book a-hideSp">
+            <a href="http://pr.nikkei.com/lp/nkp/?n_cid=NKNKP012" target="_blank" title=""><img src="https://bunner.nkpcdn.org/bunner_ds/nkp_bunneronds2.jpg" width="206" class="a-mb8" alt="" >
+            <span class="a-fs11"></span></a></div>
+        <div class="m-article a-fll">
+            <div class="cmn-related_article cmn-clearfix">
+		<h4 class="a-fs12 a-mb8 a-mt16 a-fn">最新の業績予想</h4>
+		<ul class="cmnc-link_list cmn-clearfix a-fs13">
+			<li>
+						<a href="/nkd/company/kessan/?scode=6307" target="_self">サンセイ、営業減益続く</a><span class="cmnc-time">（8/3）</span>
+						<span class="m-iconMember">［有料会員限定］</span></li>
+				<li>
+						<a href="/nkd/company/kessan/?scode=5933" target="_self">アルインコ、堅調</a><span class="cmnc-time">（8/3）</span>
+						<span class="m-iconMember">［有料会員限定］</span></li>
+				<li>
+						<a href="/nkd/company/kessan/?scode=1944" target="_self">きんでん、最終減益</a><span class="cmnc-time">（8/3）</span>
+						<span class="m-iconMember">［有料会員限定］</span></li>
+				</ul>
+	</div>
+</div>
+    </div>
+</div>
+<div class="m-block stc-benefit a-mb0">
+        <div class="cmn-notes_use">
+            <dl>
+                <dt class="a-mb8"><em>【ご注意】</em></dt>
+                <dd>・株価および株価指標データはQUICK提供です。</dd>
+                        <dd>・各項目の定義については<a href="http://www.nikkei.com/help/markets/helpindex.html" target="_blank">こちら</a>からご覧ください。</dd>
+                    </dl>
+        </div>
+    </div>
+<div class="m-block a-mb40 a-mb10Sp">
+        <div class="m-importantLink a-mb34Sp">
+            <a href="http://www.nikkei.com/info/exemption.html" target="_blank">免責事項についてはこちらから御覧ください</a>
+        </div>
+    </div>
+<ul class="m-miM08 PRa">
+					<script type='text/javascript'>
+				    try{
+				        TagProvider.requestAds({sectionId: 1743, dmp: true, sync: false});
+				    }catch(err){}
+				</script>
+				<div id="2305_1743">
+			 <script type="text/javascript">
+			     try{
+			         TagProvider.displayAd('2305_1743');
+			     }catch(err){}
+			 </script>
+			</div>
+			<script type='text/javascript'>
+				    try{
+				        TagProvider.requestAds({sectionId: 1744, dmp: true, sync: false});
+				    }catch(err){}
+				</script>
+				<div id="2306_1744">
+			 <script type="text/javascript">
+			     try{
+			         TagProvider.displayAd('2306_1744');
+			     }catch(err){}
+			 </script>
+			</div>
+			<script type='text/javascript'>
+				    try{
+				        TagProvider.requestAds({sectionId: 1745, dmp: true, sync: false});
+				    }catch(err){}
+				</script>
+				<div id="2307_1745">
+			 <script type="text/javascript">
+			     try{
+			         TagProvider.displayAd('2307_1745');
+			     }catch(err){}
+			 </script>
+			</div>
+			<script type='text/javascript'>
+				    try{
+				        TagProvider.requestAds({sectionId: 1746, dmp: true, sync: false});
+				    }catch(err){}
+				</script>
+				<div id="2308_1746">
+			 <script type="text/javascript">
+			     try{
+			         TagProvider.displayAd('2308_1746');
+			     }catch(err){}
+			 </script>
+			</div>
+			</ul>
+			<div class="a-mb75 a-hideSp" >
+        <div class="m-block market-tooles">
+    <div class="m-headline grayLine market-tooles_title">
+        <h4 class="m-headline_text">便利ツール</h4>
+    </div>
+
+    <div class="m-grid col2">
+        <div class="m-grid_column">
+            <h5 class="a-fb a-fs14 a-mb8 icon-addfolda">銘柄フォルダ</h5>
+            <p class=" a-fs13 a-pl8">保有している株式、投資信託、現預金を5フォルダに分けて登録しておくことで、効率よく資産管理ができます。</p>
+            <div class="cmn-link_index">
+                <a href="/markets/company/port/shisan.aspx?n_cid=DSMMAA16">銘柄フォルダを使う</a></div>
+        </div>
+
+        <div class="m-grid_column">
+           <h5 class="a-fb a-fs14 a-mb8 icon-chart">スマートチャートプラス</h5>
+            <p class="a-fs13 a-pl8">個別銘柄のニュースや適時開示を株価チャートと併せて閲覧できます。ボリンジャーバンドなどテクニカル指標も充実。</p>
+            <div class="cmn-link_index">
+               <a href="/smartchart/">スマートチャートプラスを使う</a></div>
+        </div>
+    </div><div class="m-grid col2 line">
+        <div class="m-grid_column">
+           <h5 class="a-fb a-fs14 a-mb8 icon-listbord">日経平均採用銘柄一覧</h5>
+            <p class="a-fs13 a-pl8">日経平均株価、JPX日経インデックス400などの指数に採用されている銘柄の株価を業種ごとに一覧で確認できます。</p>
+            <div class="cmn-link_index">
+                <a href="/markets/kabu/nidxprice/?n_cid=DSMMAA16">日経平均採用銘柄一覧を見る</a></div>
+        </div>
+
+        <div class="m-grid_column">
+            <h5 class="a-fb a-fs14 a-mb8 icon-schedule2">スケジュール</h5>
+            <p class="a-fs13 a-pl8">上場企業の決算発表日程や株主総会の日程を事前に確認することができます。</p>
+            <div class="cmn-link_index">
+                <a href="/markets/kigyo/money-schedule/kessan/?n_cid=DSMMAA16">決算発表日をチェック</a></div>
+             <div class="cmn-link_index">
+                <a href="/markets/kigyo/money-schedule/soukai/?n_cid=DSMMAA16">株主総会日をチェック</a></div>
+        </div>
+    </div><div class="m-grid col2 line">
+        <div class="m-grid_column">
+           <h5 class="a-fb a-fs14 a-mb8 icon-bonus">株主優待検索</h5>
+            <p class="a-fs13 a-pl8">企業名や証券コード以外にも優待の種類やキーワードで検索できます。よく見られている優待情報も確認できます。</p>
+            <div class="cmn-link_index">
+                <a href="/markets/kigyo/yutai/?n_cid=DSMMAA16">株主優待検索を使う</a></div>
+        </div>
+
+        <div class="m-grid_column">
+            <h5 class="a-fb a-fs14 a-mb8 icon-comparison">銘柄比較ツール</h5>
+            <p class="a-fs13">気になる銘柄を並べて株価の推移や株価指標（予想PER、PBR、予想配当利回りなど）を一覧で比較できます。</p>
+            <div class="cmn-link_index">
+                <a href="/markets/kabu/stkcomp/?n_cid=DSMMAA16">銘柄比較を使う</a></div>
+        </div>
+    </div></div></div>
+<script type="text/javascript">
+            <!--
+            companyTopOnLoad = function () {
+                $.ajax({
+                    type: "GET",
+                    url: "https://www.nikkei.com/markets/company/sys/pvcountup_company.aspr?scode=8316&ba=1" + "&d=" + (new Date()).getTime(),
+                    async: true,
+                    ifModified:false
+                });
+            };
+
+            
+            if (Math.floor(Math.random() * 101) > 50) {
+                    companyTopOnLoad();
+                }
+            //-->
+        </script>
+    </div><div id="CONTENTS_SUB_TOP">
+						<div class="m-block history a-mb15">
+    <div class="m-historyBox">
+
+        <script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/nkds.suggest.min.js"></script><div class="m-historyBox_search">
+    <div class="m-searchForm">
+        <form method="get" action="/nkd/search/" accept-charset="UTF-8" class="m-searchForm_form" onsubmit="return false;"><div class="m-searchForm_form_inner">
+                <div class="m-searchForm_inputWrap">
+                    <div class="m-searchForm_inputTable">
+                        <div class="m-searchForm_inputTable_cellIcon">
+                            <span class="m-searchForm_icon"></span>
+                        </div>
+                        <div class="m-searchForm_inputTable_cellInput">
+                            <input type="text" name="searchKeyword" maxlength="100" value="" id="searchKeyword" class="m-searchForm_input" /><input type="hidden" name="query_code" value="" id="query_code" /></div>
+                    </div>
+                </div>
+                <div class="m-searchForm_submitWrap">
+                    <input type="submit" value="検索" class="m-searchForm_submit" onclick="_nk.click(this,event,[['JSID_actFormSubmit']]);return false;" id="JSID_key_defaultsubmit" />
+                </div>
+            </div>
+        </form><script type="text/javascript" >
+            _nk.suggest.company2017("#searchKeyword", "#query_code");
+        </script>
+    </div>
+</div>
+<div class="m-historyBox_main">
+            <div class="m-historyBox_main_inner">
+                <script type="text/javascript" src='/async/async.do/?MEIGARA_SIZE=M&amp;NKD_KIND=2&amp;SERVICE_NAME=%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%E3%83%95%E3%82%A3%E3%83%8A%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97&amp;SOBA_NAME=%E4%B8%89%E4%BA%95%E4%BD%8F%E5%8F%8B%EF%BC%A6%EF%BC%A7&amp;ae=P_MM_MEIGARA_RIREKIJS&amp;n_cid=DSMMAA11&amp;nik_code=0071004&amp;scode=8316&amp;sv=NX'></script>
+            </div>
+            <ul class="m-historyBox_linkList">
+                <li>
+                    <a href="/markets/ranking/?n_cid=DSMMAA11"><span class="a-vam">ランキング</span></a></li>
+                <li>
+                    <a href="/markets/kigyo/disclose/?n_cid=DSMMAA11"><span class="a-vam">適時開示</span></a></li>
+                <li>
+                    <a href="/markets/kigyo/yutai/?n_cid=DSMMAA11"><span class="a-vam">株主優待</span></a></li>
+            </ul>
+            <div class="m-historyBox_logo">
+                    <a href="/nkd/"><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/nkd/common/nkd_logo.svg" title="日経会社情報 DIGITAL" alt="日経会社情報 DIGITAL" /></a></div>
+            </div>
+        </div>
+</div>
+<div class="cmn-sub_square_banner">
+					<div id="ADVERTISE_RECTANGLE1">
+						<div>
+							<script type='text/javascript'>
+			    try{
+			    	TagProvider.requestAds({sectionId: 1616, dmp: true, sync: false, viewable:{slot:2158,percent:0.9,reload:1}});
+			    }catch(err){}
+			</script>
+			<div id="2158_1616">
+			 <script type="text/javascript">
+			     try{
+			         TagProvider.displayAd('2158_1616');
+			     }catch(err){}
+			 </script>
+			</div>
+			</div>
+					</div>
+				</div>
+			<div class="m-block infoPR">
+		<div class="m-box info">
+			<div class="m-box_head"><a href="http://dsquare.nikkei.com/?n_cid=DSPRM182" target="_blank"><span class="m-box_head_icon"><span class="m-wficon beginner"></span></span><span class="a-vam">日経電子版をもっと知りたい方はこちら</span><span class="m-box_end_icon"><span class="m-wficon arrowRight"></span></span></a></div>
+			<p class="m-box_body"><a href="http://pr.nikkei.com/lp/ss_viewer/?n_cid=DSPRM1717" target="_blank">明日のビジネスに役立つ日経産業新聞はこちら</a></p></div>
+	</div>
+<div class="m-block m-banner">
+    <a href="http://pr.nikkei.com/lp/nkp/?n_cid=NKNKP011" target="_blank" title=""><img src="https://bunner.nkpcdn.org/bunner_ds/nkp_bunneronds1.jpg" alt="" border="0" ></a></div>
+<div class="cmn-sub_market_mm a-mb16">
+        <div class="m-headline">
+            <h2 class="m-headline_text a-fs12"><a href="/markets/kabu/">最新の市場情報</a></h2>
+                    <div class="m-headline_aside"><span class="a-vam">「※」は20分以上遅延</span></div>
+                </div>
+        <table cellspacing="0" class="cmnc-nikkei_stock">
+            <tbody>
+
+                <tr>
+                    <th>
+                        <a href="/markets/worldidx/chart/nk225/">日経平均株価(円)</a></th>
+                    <td class="cmnc-nubmer"><span class="a-fb a-fs16">22,525.18</span></td>
+                            <td class="cmnc-day_before"><span class="cmn-plus">+12.65</span></td>
+                        </tr>
+
+                <tr>
+                    <th>
+                        日経平均先物(円)<br>大取,18/09月&nbsp;※</th>
+                    <td class="cmnc-nubmer"><span class="a-fb a-fs14">22,510</span></td>
+                            <td class="cmnc-day_before">±0</td>
+                        </tr>
+
+                </tbody>
+            </table>
+    </div>
+
+    <div class="cmn-sub_market_mm a-mb16 a-brb-d a-pb8">
+       <span class="cmn-link_index a-mr15 a-fs13"><a href="/markets/kigyo/page/?uah=DF_SEC8_C2_060">業績ニュース</a></span><span class="cmn-link_index a-mr15 a-fs13"><a href="/markets/kabu/page/?uah=DF_SEC8_C1_160">株価材料</a></span><span class="cmn-link_index a-fs13"><a href="/markets/kigyo/page/?uah=DF_SEC8_C2_030">記者の目</a></span>
+    </div>
+
+<div class="m-block social">
+	<p class="m-serviceLink">
+		<a href="https://www.facebook.com/nikkei" target="_blank" title="Facebook"><span class="m-serviceLink_icon facebook"><span class="m-wficon facebook"></span></span></a><a href="https://twitter.com/nikkei" target="_blank" title="Twiiter"><span class="m-serviceLink_icon twitter"><span class="m-wficon twitter"></span></span></a><a href="https://www.nikkei.com/edit/sns/?n_cid=DSSCN001"><span class="m-serviceLink_text">アカウント一覧</span></a></p>
+</div>
+
+<div class="cmn-sub_banner">
+	<ul>
+		<li><a href="http://www.quick.co.jp/" target="_blank" title="QUICK Money World"><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/markets/quick_money_world_300x45.png" height="45" width="300" title="QUICK Money World" alt="QUICK Money World" /></a></li>
+	</ul>
+</div>
+
+<div class="m-block">
+	<style type="text/css">
+<!--
+        #ncm-pickup .m-headline {margin: 0 0 7px;padding: 8px 0;border-top: #0a385b 2px solid;border-bottom: #ccc 1px dotted;}
+        /*#ncm-pickup .m-headline_text {display: table-cell;font-size: 20px;font-weight: bold;vertical-align: middle;width: 100%;}*/
+        #ncm-pickup .ncm-pickup_article:first-child {margin-top: 0;}
+        #ncm-pickup .ncm-pickup_article:last-child {border-bottom:none;}
+        #ncm-pickup .ncm-pickup_article {margin-top:8px;padding-bottom:8px;border-bottom: #ccc 1px dotted;}
+		#ncm-pickup h2 a{font-size: 14px;font-weight: bold;line-height: 1.1; margin-bottom:0.5em;}
+		#ncm-pickup p.m-headline_disc{font-size: 10px;line-height: 1.3; margin-bottom:0.2em;}
+        #ncm-pickup h3 {font-size: 14px;font-weight: bold;line-height: 1.2; margin-bottom:0.8em;}
+        #ncm-pickup h4 {font-size: 12px;font-weight: normal;line-height: 1.3;vertical-align: middle;}
+      /*#ncm-pickup h5 {font-size: 10px;font-weight: normal;line-height: 1.1;vertical-align: middle; margin-bottom:0.5em;}*/
+        #ncm-pickup .ncm-pickup_thumb {float: right;width: 120px;margin-left:10px;position:relative;}
+        #ncm-pickup .ncm-pickup_thumb span{position:absolute;left:5px;bottom:5px;}
+        #ncm-pickup p {margin-top:3px;color:#888888;font-size: 11px;}
+-->
+</style>
+
+<div id="ncm-pickup">
+
+	<div class="m-headline">
+			<h2 class="m-headline_text">
+					<a href="https://channel.nikkei.co.jp/markets/?utm_source=nikkei&amp;utm_medium=r_c&amp;utm_campaign=nmsp" target="_blank">日経チャンネルマーケッツ</a></h2>
+	</div>
+    <p class="m-headline_disc">日経チャンネルマーケッツでは、マーケット・経済専門チャンネル日経CNBCの番組をライブ配信。配信中の番組から注目のトピックスをお届けします。</p>
+	
+		<div class="ncm-pickup_article cmn-clearfix">
+	<div class="ncm-pickup_article cmn-clearfix">
+		<a href="https://channel.nikkei.co.jp/m/watch/vod/?topfol=3&topfile=1414&ref=nikkei" target="_blank">
+        	<div class="ncm-pickup_thumb">
+            	<img src="//www.nikkei.com/edit/channelmarkets/19643.jpg" width="120" height="68">
+                <span><img src="//www.nikkei.com/edit/channelmarkets/play_button.png"></span>
+            </div>
+            <h3>鈴木亮の視界亮行<span class="cmn-icon_movie">［映像あり］</span></h3>
+            <h4></h4>
+            <p>8月3日（金）14:20</p>
+        </a>
+	</div>
+	
+	<div class="ncm-pickup_article cmn-clearfix">
+		<a href="https://channel.nikkei.co.jp/m/watch/vod/?topfol=3&topfile=1300&ref=nikkei" target="_blank">
+        	<div class="ncm-pickup_thumb">
+            	<img src="//www.nikkei.com/edit/channelmarkets/19642.jpg" width="120" height="68">
+                <span><img src="//www.nikkei.com/edit/channelmarkets/play_button.png"></span>
+            </div>
+            <h3>シャープ 白物家電の国内生産撤退を発表<span class="cmn-icon_movie">［映像あり］</span></h3>
+            <h4>丸紅がアルゼンチン産牛肉を輸入 安定調達へ国内初</h4>
+            <p>8月3日（金）13:01</p>
+        </a>
+	</div>
+	
+
+</div>
+    
+
+</div>
+
+</div>
+<div class="pickUpRanking nkdRightColRanking cmn-sub_n_rank">
+
+    <div class="stockRankingBox cmn-clerfix">
+        <div class="stockRankingBox_inside">
+            <div class="m-headline">
+                <h2 class="m-headline_text a-fs13">
+                    <a href="/markets/ranking/page/?bd=accessup">検索急増</a></h2>
+            </div>
+
+            <div class="m-article">
+                <ol class="nkdRightColRanking_best10_list">
+                    <li>１:<a href="/nkd/company/?scode=7203&amp;ba=1 " title="トヨタ自動車の株価情報">トヨタ</a></li>
+                        <li>２:<a href="/nkd/company/?scode=8001&amp;ba=1 " title="伊藤忠商事の株価情報">伊藤忠</a></li>
+                        <li>３:<a href="/nkd/company/?scode=2212&amp;ba=1 " title="山崎製パンの株価情報">山パン</a></li>
+                        <li>４:<a href="/nkd/company/?scode=7011&amp;ba=1 " title="三菱重工業の株価情報">三菱重</a></li>
+                        <li>５:<a href="/nkd/company/?scode=6326&amp;ba=1 " title="クボタの株価情報">クボタ</a></li>
+                        </ol><ol class="nkdRightColRanking_best10_list">
+                        <li>６:<a href="/nkd/company/?scode=8053&amp;ba=1 " title="住友商事の株価情報">住友商</a></li>
+                        <li>７:<a href="/nkd/company/?scode=8186&amp;ba=9 " title="大塚家具の株価情報">大塚家具</a></li>
+                        <li>８:<a href="/nkd/company/?scode=7751&amp;ba=1 " title="キヤノンの株価情報">キヤノン</a></li>
+                        <li>９:<a href="/nkd/company/?scode=2502&amp;ba=1 " title="アサヒグループホールディングスの株価情報">アサヒ</a></li>
+                        <li>10:<a href="/nkd/company/?scode=6875&amp;ba=1 " title="メガチップスの株価情報">メガチップス</a></li>
+                        </ol>
+                <div class="m-moreBtn">
+                    <a href="/markets/ranking/page/?bd=accessup"><span class="a-vam">50位まで表示</span><span class="m-wficon arrowRight"></span></a></div>
+            </div>
+        </div>
+
+        <div class="stockRankingBox_inside">
+            <div class="m-headline">
+                <h2 class="m-headline_text a-fs13">
+                    <a href="/markets/ranking/page/?bd=priceup">値上がり率</a></h2>
+                <div class="m-headline_aside">
+                    <span class="a-vam">東証1部</span>
+                </div>
+            </div>
+
+            <div class="m-article">
+                <ol>
+                    <li>１:<a href="/nkd/company/?scode=3784" title="ヴィンクスの株価情報">ヴィンクス</a><span class="cmn-plus">＋20.40%</span>
+                            </li>
+                    <li>２:<a href="/nkd/company/?scode=2327" title="新日鉄住金ソリューションズの株価情報">ＮＳＳＯＬ</a><span class="cmn-plus">＋16.68%</span>
+                            </li>
+                    <li>３:<a href="/nkd/company/?scode=6590" title="芝浦メカトロニクスの株価情報">芝浦</a><span class="cmn-plus">＋13.35%</span>
+                            </li>
+                    <li>４:<a href="/nkd/company/?scode=6282" title="オイレス工業の株価情報">オイレス</a><span class="cmn-plus">＋12.83%</span>
+                            </li>
+                    <li>５:<a href="/nkd/company/?scode=6418" title="日本金銭機械の株価情報">日金銭</a><span class="cmn-plus">＋11.65%</span>
+                            </li>
+                    </ol>
+                <div class="m-moreBtn">
+                    <a href="/markets/ranking/page/?bd=priceup"><span class="a-vam">50位まで表示</span><span class="m-wficon arrowRight"></span></a></div>
+            </div>
+        </div>
+
+        <div class="stockRankingBox_inside">
+            <div class="m-headline">
+                <h2 class="m-headline_text a-fs13">
+                    <a href="/markets/ranking/page/?bd=pricedown">値下がり率</a></h2>
+                <div class="m-headline_aside">
+                    <span class="a-vam">東証1部</span>
+                </div>
+            </div>
+
+            <div class="m-article">
+                <ol>
+                    <li>１:<a href="/nkd/company/?scode=6875" title="メガチップスの株価情報">メガチップス</a><span class="cmn-minus">－18.63%</span>
+                            </li>
+                    <li>２:<a href="/nkd/company/?scode=6622" title="ダイヘンの株価情報">ダイヘン</a><span class="cmn-minus">－16.64%</span>
+                            </li>
+                    <li>３:<a href="/nkd/company/?scode=2212" title="山崎製パンの株価情報">山パン</a><span class="cmn-minus">－16.56%</span>
+                            </li>
+                    <li>４:<a href="/nkd/company/?scode=7105" title="三菱ロジスネクストの株価情報">ロジスネクス</a><span class="cmn-minus">－16.10%</span>
+                            </li>
+                    <li>５:<a href="/nkd/company/?scode=2733" title="あらたの株価情報">あらた</a><span class="cmn-minus">－15.80%</span>
+                            </li>
+                    </ol>
+                <div class="m-moreBtn">
+                    <a href="/markets/ranking/page/?bd=pricedown"><span class="a-vam">50位まで表示</span><span class="m-wficon arrowRight"></span></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="m-block pickUpOtherRanking">
+        <ul class="pickUpOtherRanking_list">
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=mear25up_turnover">売買代金急増</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=accessup">検索急増</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=dividend">配当利回り（予想）</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=perlow_d">予想PER低位</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=caphigh">時価総額上位</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=turnover">東証売買代金</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=uriage">売上高</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=disclose">適時開示</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=pbrlow">PBR低位</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/page/?bd=vol">売買高</a></li>
+            <li class="pickUpOtherRanking_item"><a href="/markets/ranking/">他のランキングを見る</a></li>
+        </ul>
+    </div>
+</div>
+
+            <div class="m-block cmn-sub_tools a-mb0">
+<div class="cmn-headline_style2">
+<div class="cmn-headline_style2_inner">
+<h2 class="cmn-headline_style2_title">便利ツール</h2>
+</div>
+</div>
+<ul>
+<li>
+<a href="/markets/company/port/shisan.aspx"><span class="icon-sub-tools icon-folder"></span>銘柄フォルダ</a>
+<a href="/smartchart/" target="_blank" style="font-size:11px;"><span class="icon-sub-tools icon-schart"></span>スマートチャートプラス</a>
+</li>
+<li>
+<a href="/markets/kabu/japanidx/"><span class="icon-sub-tools icon-interiorStock"></span>国内の株式指標</a>
+<a href="/markets/kigyo/yutai/"><span class="icon-sub-tools icon-stockholderBonus"></span>株主優待検索</a>
+</li>
+<li>
+<a href="/markets/kabu/nidxprice/"><span class="icon-sub-tools icon-NikkeiIndex"></span>日経平均採用の株価</a>
+<a href="/markets/kabu/stkcomp/"><span class="icon-sub-tools icon-issueComparing"></span>銘柄比較</a>
+</li>
+<li>
+<a href="/markets/kawase/crossrate/"><span class="icon-sub-tools icon-crossRate"></span>外為クロスレート</a>
+<a href="/markets/fund/ranking/"><span class="icon-sub-tools icon-mmfMrf"></span>投信ランキング</a>
+</li>
+<li>
+<a href="/markets/kawase/kinri/"><span class="icon-sub-tools icon-depositInterest"></span>預貯金金利</a>
+<a href="https://vdata.nikkei.com/economicdashboard/macro/" target="_blank"><span class="icon-sub-tools icon-depositInterest"></span>統計・指標</a>
+</li>
+</ul>
+</div>
+<div class="textTab_nav a-mb8">
+    <ul class="m-textTab_nav">
+        <li class="m-textTab_nav_list">発掘ツールはサービスを終了しました。</li>
+    </ul>
+</div>
+<div class="m-block cmn-sub_schedule">
+<div class="m-headline a-mb8">
+<h2 class="m-headline_text">スケジュール</h2>
+</div>
+<ul class="m-newsList">
+<li><a href="/markets/kabu/marketcalendar/">マーケットカレンダー</a></li>
+<li><a href="/markets/kigyo/money-schedule/kessan/">決算発表スケジュール</a></li>
+<li><a href="/markets/kigyo/money-schedule/soukai/">株主総会スケジュール</a></li>
+<li><a href="/markets/kigyo/ipo/money-schedule/">ＩＰＯスケジュール</a></li>
+<li class="a-wide"><a href="/markets/kigyo/money-schedule/event/">資本イベントスケジュール<span class="cmn-icon_member">［有料会員限定］</span></a></li>
+</ul>
+</div></div><div id="CONTENTS_SUB_BOTTOM">
+						<div class="cmn-sub_square_banner">
+					<div id="ADVERTISE_RECTANGLE2">
+						<div>
+							<script type='text/javascript'>
+				    try{
+				        TagProvider.requestAds({sectionId: 1617, dmp: true, sync: false});
+				    }catch(err){}
+				</script>
+				<div id="2159_1617">
+			 <script type="text/javascript">
+			     try{
+			         TagProvider.displayAd('2159_1617');
+			     }catch(err){}
+			 </script>
+			</div>
+			</div>
+					</div>
+				</div>
+			<div class="m-block infoNikkei">
+							<div class="m-box info">
+								<div class="m-box_head">
+									<a href="/nkd/info/" target="_blank" class="a-pv15"><span class="m-box_head_icon"><span class="m-wficon info"></span></span><span class="a-vam">日経会社情報DIGITALからのお知らせ</span><span class="m-box_end_icon"><span class="m-wficon arrowRight"></span></span></a></div>
+							</div>
+						</div>
+					</div>
+
+					<script type='text/javascript'>
+				    try{
+				        TagProvider.requestAds({sectionId: 1759, dmp: true, sync: false});
+				    }catch(err){}
+				</script>
+				<div id="2320_1759">
+			 <script type="text/javascript">
+			     try{
+			         TagProvider.displayAd('2320_1759');
+			     }catch(err){}
+			 </script>
+			</div>
+			</div></div></div></div><div class="l-aboutNikkei JSID_tagFooter">
+	<div class="l-aboutNikkei_body">
+	  <div class="l-aboutNikkei_category denshiban">
+			<h2 class="l-aboutNikkei_title">日本経済新聞 電子版について</h2>
+			<ul class="l-aboutNikkei_list" id="aboutNikkeiBottom">
+				<li><a href="https://www.nikkei.com/info/policy.html" target="_blank">サイトポリシー</a></li>
+				<li><a href="https://www.nikkei.com/help/" target="_blank">ヘルプセンター</a></li>
+				<li><a href="http://support.nikkei.com/?site_domain=nikkeifaq" target="_blank">FAQ・お問い合わせ</a></li>
+				<li><a href="https://regist.nikkei.com/support/">ご購読サポート</a></li>
+				<li><a href="http://ps.nikkei.co.jp/adweb/">Web広告ガイド</a></li>
+				<li><a href="https://www.nikkei.com/info/link.html" target="_blank">リンクポリシー</a></li>
+				<li><a href="https://www.nikkei.com/info/copyright.html" target="_blank">著作権</a></li>
+				<li><a href="https://www.nikkei.com/lounge/help/cookie.html" target="_blank">データ利用</a></li>
+				<li><a href="https://www.nikkei.com/info/privacy.html" target="_blank">個人情報</a></li>
+				<li><a href="https://www.nikkei.com/info/tos_ds.html" target="_blank">利用規約</a></li>
+				<li><a href="https://www.nikkei.com/info/sitemap.html" target="_blank">サイトマップ</a></li>
+			</ul>
+		</div>
+	  <div class="l-aboutNikkei_category corporate">
+			<h2 class="l-aboutNikkei_title">日本経済新聞社について</h2>
+			<ul class="l-aboutNikkei_list">
+				<li><a href="http://www.nikkei.co.jp/nikkeiinfo/" target="_blank">会社情報・お知らせ</a></li>
+				<li><a href="http://pr.nikkei.com/share/" target="_blank">記事利用</a></li>
+				<li><a href="http://www.nikkei.co.jp/privacy/" target="_blank">個人情報の取り扱い</a></li>
+				<li><a href="http://www.nikkei.co.jp/saiyo/" target="_blank">本社採用案内</a></li>
+				<li><a href="http://www.nikkei.co.jp/nikkeiinfo/company/group.html" target="_blank">日経グループ情報</a></li>
+				<li><a href="http://adweb.nikkei.co.jp/" target="_blank">新聞広告お申し込みガイド</a></li>
+				<li><a href="http://www.nikkei4946.com/" target="_blank">紙面紹介と購読案内</a></li>
+				<li><a href="https://www.nikkei4946.com/b2b/" target="_blank">法人お問い合わせ窓口</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="a-pchide">
+		<div class="gotopage-top roll">
+			<a class="roll-text" href="#PAGE_TOP" title="" >
+				<i class="m-wficon jinjipagetop"></i>
+				<span>トップへ</span>
+			</a>
+		</div>
+	</div>
+	<script>
+		$(function(){
+		var topBtn = $('.gotopage-top');
+		var showFlag = false;
+		//スクロールしたらボタン表示
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				if (showFlag == false) {
+					showFlag = true;
+					topBtn.css('opacity','');
+					topBtn.stop().fadeIn(500).css('display','table');
+				}
+			} else {
+				if (showFlag) {
+					showFlag = false;
+					topBtn.stop().fadeOut(500,function() {
+						topBtn.css('opacity','');
+					});
+				}
+			}
+		});
+	});
+	</script>
+<div class="l-copyright">
+	<div class="l-copyright_body">
+		<span class="l-copyright_logo">
+			<!--[if lte IE 8]><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/logo_nikkei_footer.png" title="NIKKEI" alt="NIKKEI" /><![endif]-->
+				<!--[if gte IE 9]><!--><img src="//assets.nikkei.jp/release/v3.1.38/parts/ds/images/common/logo_nikkei_footer.svg" title="NIKKEI" alt="NIKKEI" /><!--<![endif]-->
+			</span>
+		<span class="l-copyright_text">Nikkei Inc. No reproduction without permission.</span>
+	</div>
+</div>
+
+<script type="text/javascript">
+_nkconf.DATA_ENGLISH_GUIDE_URL="/async/async.do/?ae=P_LK_ILGUIDE&sv=NX";_nkconf.DATA_CHINESE_GUIDE_URL="/async/async.do/?ae=P_LK_ILGUIDE_CHINESE&sv=NX";_nkconf.ENGLISH_GUIDE_FLG=true;_nkconf.IS_TOPPAGE=false;_nkconf.BREAKING={global_load:70000,global_close:"1",global_expire:"day"};</script>
+<script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/nkds.footer.min.js"></script><script type="text/javascript">
+</script>
+
+<script type="text/javascript" src="//assets.nikkei.jp/release/v3.1.38/parts/ds/script/markets/c.min.js"></script><script type="text/javascript" id="NK_JSID_SMARTGUIDE" src="//partsa.nikkei.com/parts/js/smartguide.20180329_1.js"></script>
+<!--SiteCatalyst code-->
+<script type="text/javascript">
+var prop1 = "DSmoma-日経会社情報";
+var prop2 = "DSmoma-日経会社情報-企業・トップ";
+var prop31="8316";
+var prop32="0071004";
+var prop36="1";
+var prop34="121";
+
+var now = new Date();
+var pageName = location.href;
+
+var channel = "MARKETS";
+var server = document.domain;
+
+var pageType = "";
+var prop3 = "";
+var prop4 = "";
+
+var prop5 = "1";
+
+var prop6 = now.getHours();
+
+var prop12 = "";
+var prop14 = "";
+var prop16 = "";
+var prop20 = "";
+
+var prop21 = "";
+var prop22 = "";
+var prop23 = "";
+var prop24 = "";
+var prop25 = "";
+var prop26 = "";
+var prop27 = "";
+var prop28 = "";
+var prop29 = "";
+var prop30 = "";
+if(prop39 === undefined){
+var prop39 = "1";
+} else {
+prop39 = "1";
+}
+
+var prop40 = "0";
+
+if(prop46 === undefined){
+var prop46 = "0";
+}
+
+
+var sKeyword = "";
+</script><!-- SiteCatalyst code version: H.9.
+Copyright 1997-2007 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script type="text/javascript">
+(function(c1,c2){function lsc(scn,func){var sc=document.createElement('script');sc.type='text/javascript';sc.src=scn;if(func){if(window.ActiveXObject){sc.onreadystatechange=function(){var sState=sc.readyState;if((sState=='complete')||(sState=='loaded')){func()}}}else{sc.onload=function(){func()}}}document.getElementsByTagName("head")[0].appendChild(sc)}function lcdds(){lsc(c1,lcds)}function lcds(){lsc(c2)}lcdds()})
+("//assets.nikkei.jp/release/v3.1.38/parts/ds/script/SC/marketma/s_codeDSmarketma.js","//assets.nikkei.jp/release/v3.1.38/parts/ds/script/SC2/s_cDS.js");
+</script>
+<script type="text/javascript">
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+</script>
+<noscript>
+<a href="http://www.omniture.com" title="Web Analytics"><img src="http://nikkei.d1.sc.omtrdc.net/b/ss/nikkeicojpgrpmstallprod,nikkeicojpdsmstallprod,nikkeicojpdsmstdsprod,nikkeicojpdsmarketmaprod/1/H.9--NS/0" height="1" width="1" border="0" alt="" />
+</a>
+</noscript>
+<!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.9. -->
+<!--/SiteCatalyst code-->
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+<script type='text/javascript'>
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 54438;
+    _sf_async_config.domain = 'nikkei.com';
+    _sf_async_config.useCanonical = true;
+    _sf_async_config.sections = prop1;
+    _sf_async_config.authors = 'nikkei';
+    /** CONFIGURATION END **/
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+</div></div><div id="JSID_baseTail"></div>
+<script type="text/javascript">_satellite.pageBottom();</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"da29c19cda","agent":"","beacon":"bam.nr-data.net","applicationTime":610,"applicationID":"91347868","transactionName":"NFAAbBFTW0sHVBYNVg0aMUwRR0FLJ1QWDVYNGghITVFaFghSAUpXCl4JXQocUUtIXwMNSgtcDBYTU1JdSFMLF0kCQQFQBkAbfA9EEgVNAF0HSiJRQVEJWQ==","queueTime":0}</script></body>
+</html>
+
