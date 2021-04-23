@@ -79,8 +79,6 @@ func main() {
 // 	// }
 // 	// log.Println("created NewPage successfully")
 
-// 	// page.Navigate("https://ebookjapan.yahoo.co.jp/?utm_source=yahoo&utm_medium=content&utm_campaign=pcsvc")
-
 // 	// time.Sleep(2 * time.Second)
 // 	// page.Screenshot("./chrome_screenshot.jpg")
 // }

@@ -1,18 +1,13 @@
-// 伝統的な `printf` によく似た、良く出来た文字列フォーマット機能が Go にはある。
-// ここでは、文字列をフォーマットする例をいくつか紹介する。
-
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
+	for i := 1; i <= 20; i++ {
+		a, b := fmt.Sprintf("%d", i-1), fmt.Sprintf("%d", i)
+		fmt.Printf("[%s %s] [% x % x] %t\n", a, b, a, b, a < b)
+	}
 
-	// 文字列を普通に表示するには `%s` を使う。
-	fmt.Printf("%s\n", "\"string\"")
-
-	// Go のソースコードのようにダブルクオートを文字列に入れるには、`%q` を使う。
-	fmt.Printf("%q\n", "\"string\"")
-
+	a, b := "90", "9!"
+	fmt.Printf("[%s %s] [% x % x] %t\n", a, b, a, b, a < b)
 }

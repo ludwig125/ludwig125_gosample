@@ -9,7 +9,7 @@ import (
 
 var data = `{
     "id": 1.0,
-    "Name": "Yahoo"
+    "Name": "Google"
 }`
 
 // Data is struct for json parse.
@@ -55,7 +55,7 @@ func fn2() {
 
 // 結果
 // Data型でDecodeすると1.0が1になる
-// decoded to map[string]interface {}{"Name":"Yahoo", "id":"1.0"}
-// encoded to {"Name":"Yahoo","id":1.0}
-// decoded to main.Data{Name:"Yahoo", ID:1}
-// encoded to {"name":"Yahoo","id":1}
+// decoded to map[string]interface {}{"Name":"Google", "id":"1.0"}
+// encoded to {"Name":"Google","id":1.0}
+// decoded to main.Data{Name:"Google", ID:1}
+// encoded to {"name":"Google","id":1}
