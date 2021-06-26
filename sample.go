@@ -1,13 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"bytes"
+	"fmt"
+)
+
+var n = 10
 
 func main() {
-	for i := 1; i <= 20; i++ {
-		a, b := fmt.Sprintf("%d", i-1), fmt.Sprintf("%d", i)
-		fmt.Printf("[%s %s] [% x % x] %t\n", a, b, a, b, a < b)
-	}
+	out := func1("12345")
+	fmt.Println(string(out))
+}
 
-	a, b := "90", "9!"
-	fmt.Printf("[%s %s] [% x % x] %t\n", a, b, a, b, a < b)
+func func1(in string) (out []byte) {
+	buf := &bytes.Buffer{}
+	for i := 0; i < n; i++ {
+		buf.WriteString(in)
+	}
+	out = buf.Bytes()
+	return
 }

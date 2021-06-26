@@ -65,16 +65,16 @@ func TestBinarySearchTree(t *testing.T) {
 	// fmt.Println(n)
 	// fmt.Println(n.Left)
 	// fmt.Println(n.Right)
-	n.Print()
+	tr.Print()
 
 	fmt.Println("-----------------")
 	// fmt.Println(n.Find("5"))
 	// fmt.Println(n.Find("8"))
 
-	if err := n.Delete(4, nil); err != nil {
+	if err := tr.Delete(4); err != nil {
 		t.Fatal(err)
 	}
-	n.Print()
+	tr.Print()
 }
 
 type Node struct {
@@ -89,28 +89,16 @@ func (n *Node) Insert(key int, value string) error {
 		return errors.New("cannot insert nil node")
 	}
 
-	if key == 12 {
-		fmt.Println("koko1")
-	}
 	switch {
 	case n.Key == key:
-		if key == 12 {
-			fmt.Println("koko1")
-		}
-		return errors.New("failed to insert. already be same key")
+		return fmt.Errorf("failed to insert. key: %d is already exist", key)
 	case n.Key > key:
-		if key == 12 {
-			fmt.Println("koko2", n.Key, key, n.Key > key)
-		}
 		if n.Left == nil {
 			n.Left = &Node{Key: key, Value: value}
 			return nil
 		}
 		return n.Left.Insert(key, value)
 	case n.Key < key:
-		if key == 12 {
-			fmt.Println("koko3")
-		}
 		if n.Right == nil {
 			n.Right = &Node{Key: key, Value: value}
 			return nil
@@ -312,10 +300,6 @@ func (n *Node) findMax(parent *Node) (*Node, *Node) {
 // 	return nil, nil
 // }
 
-func (n *Node) Print() {
-	n.print(0)
-}
-
 func (n *Node) print(depth int) {
 	if n == nil {
 		// return errors.New("cannot insert nil node")
@@ -345,6 +329,7 @@ func (t *Tree) Insert(key int, value string) error {
 			Key:   key,
 			Value: value,
 		}
+		return nil
 	}
 	return t.Root.Insert(key, value)
 }
@@ -377,4 +362,11 @@ func (t *Tree) Traverse(n *Node, f func(*Node)) {
 	t.Traverse(n.Left, f)
 	f(n)
 	t.Traverse(n.Right, f)
+}
+
+func (t *Tree) Print() {
+	if t.Root == nil {
+		return
+	}
+	t.Root.print(0)
 }
