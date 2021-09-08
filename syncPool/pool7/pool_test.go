@@ -111,7 +111,7 @@ func init() {
 // 	}
 // }
 
-func Benchmark(b *testing.B) {
+func BenchmarkFunc(b *testing.B) {
 	b.ReportAllocs()
 	b.ResetTimer()
 

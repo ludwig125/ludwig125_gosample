@@ -2,21 +2,60 @@ package main
 
 import (
 	"bytes"
+	"crypto/sha256"
 	"fmt"
+	"math/rand"
+	"strconv"
+	"strings"
+	"testing"
 )
 
-var n = 10
+func foo(n int) string {
+	var buf bytes.Buffer
+	for i := 0; i < 100000; i++ {
+		buf.WriteString(strconv.Itoa(n))
+	}
+	sum := sha256.Sum256(buf.Bytes())
 
-func main() {
-	out := func1("12345")
-	fmt.Println(string(out))
+	var b []byte
+	for i := 0; i < int(sum[0]); i++ {
+		x := sum[(i*7+1)%len(sum)] ^ sum[(i*5+3)%len(sum)]
+		c := strings.Repeat("abcdefghijklmnopqrstuvwxyz", 10)[x]
+		b = append(b, c)
+	}
+	return string(b)
 }
 
-func func1(in string) (out []byte) {
-	buf := &bytes.Buffer{}
-	for i := 0; i < n; i++ {
-		buf.WriteString(in)
+func main() {
+	// cpufile, err := os.Create("cpu.pprof")
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// err = pprof.StartCPUProfile(cpufile)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// defer cpufile.Close()
+	// defer pprof.StopCPUProfile()
+
+	// heapfile, err := os.Create("heap.pprof")
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// err = pprof.WriteHeapProfile(heapfile)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// defer heapfile.Close()
+
+	// ensure function output is accurate
+	if foo(12345) == "aajmtxaattdzsxnukawxwhmfotnm" {
+		fmt.Println("Test PASS")
+	} else {
+		fmt.Println("Test FAIL")
 	}
-	out = buf.Bytes()
-	return
+
+	fmt.Println("Allocs:", int(testing.AllocsPerRun(100, func() {
+		foo(rand.Int())
+	})))
 }
