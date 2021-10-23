@@ -28,7 +28,12 @@ func TestReadTSV(t *testing.T) {
 		},
 		"abnormal": {
 			data:    "a1\tb1\na2",
-			wantErr: true, //  record on line 2: wrong number of fields
+			wantErr: true, // error occured in read tsv: record on line 2: wrong number of fields
+			want:    nil,
+		},
+		"abnormal2": {
+			data:    "a1\na2",
+			wantErr: true, // tsv data does not have exactly two fields. data: [a1]
 			want:    nil,
 		},
 	}
@@ -39,6 +44,7 @@ func TestReadTSV(t *testing.T) {
 				if !tt.wantErr {
 					t.Errorf("error: %v, wantErr: %t", err, tt.wantErr)
 				}
+				t.Log(err)
 				return
 			}
 

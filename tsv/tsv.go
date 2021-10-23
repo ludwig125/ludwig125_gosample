@@ -37,12 +37,6 @@ func ConvertDataFromTSV(in io.Reader) ([]Data, error) {
 			return nil, fmt.Errorf("error occured in read tsv: %v", err)
 		}
 
-		// fmt.Println(record)
-		// if len(record) == 1 && record[0] == "" {
-		// 	fmt.Println("empty")
-		// 	return nil, nil
-		// }
-
 		if len(record) != 2 {
 			return nil, fmt.Errorf("tsv data does not have exactly two fields. data: %v", record)
 		}
