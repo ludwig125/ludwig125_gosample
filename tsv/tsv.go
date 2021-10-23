@@ -34,7 +34,7 @@ func ConvertDataFromTSV(in io.Reader) ([]Data, error) {
 			break
 		}
 		if err != nil {
-			return nil, fmt.Errorf("occured in read tsv")
+			return nil, fmt.Errorf("error occured in read tsv: %v", err)
 		}
 
 		// fmt.Println(record)

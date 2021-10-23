@@ -26,31 +26,25 @@ func TestReadTSV(t *testing.T) {
 			wantErr: false,
 			want:    nil,
 		},
+		"abnormal": {
+			data:    "a1\tb1\na2",
+			wantErr: true, //  record on line 2: wrong number of fields
+			want:    nil,
+		},
 	}
 	for name, tt := range tests {
 		t.Run(name, func(t *testing.T) {
 			got, err := ConvertDataFromTSV(strings.NewReader(tt.data))
-			if (err != nil) != tt.wantErr {
-				t.Errorf("error: %v, wantErr: %t", err, tt.wantErr)
-				return
-			}
 			if err != nil {
-				t.Log(err)
-				t.Fatal(err)
+				if !tt.wantErr {
+					t.Errorf("error: %v, wantErr: %t", err, tt.wantErr)
+				}
+				return
 			}
 
 			if diff := cmp.Diff(got, tt.want); diff != "" {
 				t.Errorf("got: %v,want: %v, diff: %s", got, tt.want, diff)
 			}
-			// ctx, _ := context.WithTimeout(context.Background(), time.Second*5)
-			// infos, err := errSem(ctx, tt.cities)
-			// if err != nil {
-			// 	t.Fatal(err)
-			// }
-			// for _, v := range infos {
-			// 	fmt.Println(*v)
-			// }
-
 		})
 	}
 }
