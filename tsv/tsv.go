@@ -4,7 +4,48 @@ import (
 	"encoding/csv"
 	"fmt"
 	"io"
+	"log"
+	"strings"
 )
+
+// https://deeeet.com/writing/2016/10/25/go-interface-testing/
+
+func main() {
+	db := NewDB()
+	if err := run(db); err != nil {
+		log.Fatal(err)
+	}
+}
+
+func run(db DB) error {
+	res, err := db.GetTSV()
+	if err != nil {
+		return err
+	}
+
+	out, err := ConvertDataFromTSV(strings.NewReader(res))
+	if err != nil {
+		return err
+	}
+	fmt.Println(out)
+
+	return nil
+}
+
+type DB interface {
+	GetTSV() (string, error)
+}
+
+type database struct {
+}
+
+func NewDB() DB {
+	return database{}
+}
+
+func (d database) GetTSV() (string, error) {
+	return "", nil
+}
 
 type Data struct {
 	A string

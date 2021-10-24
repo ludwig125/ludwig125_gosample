@@ -7,6 +7,56 @@ import (
 	"github.com/google/go-cmp/cmp"
 )
 
+type testdatabase struct {
+}
+
+func NewTestDB() DB {
+	return testdatabase{}
+}
+
+func (d testdatabase) GetTSV() (string, error) {
+	return "a1\tb1\na2\tb2\na3\tb3\n", nil
+}
+
+func TestRun(t *testing.T) {
+	db := NewTestDB()
+	if err := run(db); err != nil {
+		t.Fatal(err)
+	}
+
+	// tests := map[string]struct {
+	// 	data    string
+	// 	wantErr bool
+	// 	want    []Data
+	// }{
+	// 	"1": {
+	// 		data: "a1\tb1\na2\tb2\na3\tb3\n",
+	// 		want: []Data{
+	// 			{A: "a1", B: "b1"},
+	// 			{A: "a2", B: "b2"},
+	// 			{A: "a3", B: "b3"},
+	// 		},
+	// 	},
+	// }
+	// for name, tt := range tests {
+	// 	t.Run(name, func(t *testing.T) {
+	// 		fmt.Println(tt)
+	// 		// got, err := ConvertDataFromTSV(strings.NewReader(tt.data))
+	// 		// if err != nil {
+	// 		// 	if !tt.wantErr {
+	// 		// 		t.Errorf("error: %v, wantErr: %t", err, tt.wantErr)
+	// 		// 	}
+	// 		// 	t.Log(err)
+	// 		// 	return
+	// 		// }
+
+	// 		// if diff := cmp.Diff(got, tt.want); diff != "" {
+	// 		// 	t.Errorf("got: %v,want: %v, diff: %s", got, tt.want, diff)
+	// 		// }
+	// 	})
+	// }
+}
+
 func TestReadTSV(t *testing.T) {
 	tests := map[string]struct {
 		data    string
