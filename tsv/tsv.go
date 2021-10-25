@@ -6,18 +6,32 @@ import (
 	"io"
 	"log"
 	"strings"
+	"time"
 )
 
 // https://deeeet.com/writing/2016/10/25/go-interface-testing/
 
 func main() {
 	db := NewDB()
-	if err := run(db); err != nil {
+	server := NewServer()
+	if err := run(db, time.Now(), server); err != nil {
 		log.Fatal(err)
 	}
 }
 
-func run(db DB) error {
+func run(db DB, now time.Time, srv Server) error {
+	tables := []string{"TableA", "TableB", "TableC"}
+	for _, table := range tables {
+		partitions, err := db.ReadPartition(table)
+		if err != nil {
+			return err
+		}
+		// log.Println(table, "partition is", partitions)
+		if !containsToday(partitions, now) {
+			return fmt.Errorf("table %s does not have today's partition. partitions: %s", table, partitions)
+		}
+	}
+
 	res, err := db.GetTSV()
 	if err != nil {
 		return err
@@ -29,10 +43,21 @@ func run(db DB) error {
 	}
 	fmt.Println(out)
 
+	if err := srv.Delete("tmp_params"); err != nil {
+		return err
+	}
+
+	currentData, err := srv.Read("tmp_params")
+	if err != nil {
+		return err
+	}
+	fmt.Println(currentData)
+
 	return nil
 }
 
 type DB interface {
+	ReadPartition(string) (string, error)
 	GetTSV() (string, error)
 }
 
@@ -43,8 +68,17 @@ func NewDB() DB {
 	return database{}
 }
 
+func (d database) ReadPartition(table string) (string, error) {
+	return "", nil
+}
+
 func (d database) GetTSV() (string, error) {
 	return "", nil
+}
+
+func containsToday(target string, now time.Time) bool {
+	format := "20060102"
+	return strings.Contains(target, now.Format(format))
 }
 
 type Data struct {
@@ -63,8 +97,8 @@ func ConvertDataFromTSV(in io.Reader) ([]Data, error) {
 	// デリミタ設定(TSVなら\t, CSVなら,)
 	r.Comma = '\t'
 
+	firstLine := true
 	var res []Data
-
 	// Iterate through the records
 	for {
 		// Read each record from csv
@@ -77,6 +111,10 @@ func ConvertDataFromTSV(in io.Reader) ([]Data, error) {
 		if err != nil {
 			return nil, fmt.Errorf("error occured in read tsv: %v", err)
 		}
+		if firstLine { // １行目は項目名なので捨てる
+			firstLine = false
+			continue
+		}
 
 		if len(record) != 2 {
 			return nil, fmt.Errorf("tsv data does not have exactly two fields. data: %v", record)
@@ -86,33 +124,22 @@ func ConvertDataFromTSV(in io.Reader) ([]Data, error) {
 	return res, nil
 }
 
-// func main() {
-// 	// テスト用文字列
-// 	str := "test\tテスト\nHello\tこんにちは"
+type Server interface {
+	Delete(string) error
+	Read(string) (string, error)
+}
 
-// 	// CSVのReaderを用意
-// 	r := csv.NewReader(strings.NewReader(str))
+type server struct {
+}
 
-// 	// デリミタ(TSVなら\t, CSVなら,)設定
-// 	r.Comma = '\t'
+func NewServer() Server {
+	return server{}
+}
 
-// 	// コメント設定(なんとコメント文字を指定できる!)
-// 	r.Comment = '#'
+func (s server) Delete(params string) error {
+	return nil
+}
 
-// 	// 全部読みだす
-// 	records, err := r.ReadAll()
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-
-// 	// 各行でループ
-// 	for _, v := range records {
-// 		// 1列目
-// 		fmt.Print(v[0])
-
-// 		fmt.Print(" | ")
-
-// 		// 2列目
-// 		fmt.Println(v[1])
-// 	}
-// }
+func (s server) Read(params string) (string, error) {
+	return "", nil
+}

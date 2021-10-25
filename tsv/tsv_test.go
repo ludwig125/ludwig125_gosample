@@ -3,6 +3,7 @@ package main
 import (
 	"strings"
 	"testing"
+	"time"
 
 	"github.com/google/go-cmp/cmp"
 )
@@ -14,13 +15,39 @@ func NewTestDB() DB {
 	return testdatabase{}
 }
 
+func (d testdatabase) ReadPartition(table string) (string, error) {
+	res := `
+PART_NAME
+partition=20211021
+partition=20211022
+partition=20211023
+partition=20211024`
+	return res, nil
+}
+
 func (d testdatabase) GetTSV() (string, error) {
-	return "a1\tb1\na2\tb2\na3\tb3\n", nil
+	return "ColumnA\tColumnB\na1\tb1\na2\tb2\na3\tb3\n", nil
+}
+
+type testserver struct {
+}
+
+func NewTestServer() Server {
+	return testserver{}
+}
+
+func (s testserver) Delete(params string) error {
+	return nil
+}
+
+func (s testserver) Read(params string) (string, error) {
+	return "", nil
 }
 
 func TestRun(t *testing.T) {
 	db := NewTestDB()
-	if err := run(db); err != nil {
+	srv := NewTestServer()
+	if err := run(db, time.Date(2021, 10, 24, 1, 2, 3, 4, time.Local), srv); err != nil {
 		t.Fatal(err)
 	}
 
@@ -64,7 +91,7 @@ func TestReadTSV(t *testing.T) {
 		want    []Data
 	}{
 		"1": {
-			data: "a1\tb1\na2\tb2\na3\tb3\n",
+			data: "ColumnA\tColumnB\na1\tb1\na2\tb2\na3\tb3\n",
 			want: []Data{
 				{A: "a1", B: "b1"},
 				{A: "a2", B: "b2"},
@@ -77,12 +104,12 @@ func TestReadTSV(t *testing.T) {
 			want:    nil,
 		},
 		"abnormal": {
-			data:    "a1\tb1\na2",
-			wantErr: true, // error occured in read tsv: record on line 2: wrong number of fields
+			data:    "ColumnA\tColumnB\na1\tb1\na2",
+			wantErr: true, // error occured in read tsv: record on line 3: wrong number of fields
 			want:    nil,
 		},
 		"abnormal2": {
-			data:    "a1\na2",
+			data:    "ColumnA\tColumnB\na1\na2",
 			wantErr: true, // tsv data does not have exactly two fields. data: [a1]
 			want:    nil,
 		},
