@@ -1,6 +1,12 @@
 package main
 
 import (
+	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
+	"net/http/httptest"
+	"strconv"
 	"strings"
 	"testing"
 	"time"
@@ -10,6 +16,9 @@ import (
 
 type testdatabase struct {
 }
+
+// interface を満たしているか確認する
+var _ DB = (*database)(nil)
 
 func NewTestDB() DB {
 	return testdatabase{}
@@ -30,14 +39,18 @@ func (d testdatabase) GetTSV() (string, error) {
 }
 
 type testserver struct {
+	serverURL string
 }
 
-func NewTestServer() Server {
-	return testserver{}
+// interface を満たしているか確認する
+var _ Server = (*testserver)(nil)
+
+func NewTestServer(serverURL string) Server {
+	return testserver{serverURL: serverURL}
 }
 
 func (s testserver) Delete(params string) error {
-	return nil
+	return delete(s.serverURL, params)
 }
 
 func (s testserver) Read(params string) (string, error) {
@@ -45,8 +58,59 @@ func (s testserver) Read(params string) (string, error) {
 }
 
 func TestRun(t *testing.T) {
+	ts := httptest.NewServer(http.HandlerFunc(
+		func(w http.ResponseWriter, r *http.Request) {
+			if r.Method != "POST" {
+				w.WriteHeader(http.StatusBadRequest)
+				return
+			}
+			if r.Header.Get("Content-Type") != "application/json" {
+				w.WriteHeader(http.StatusBadRequest)
+				return
+			}
+
+			//To allocate slice for request body
+			length, err := strconv.Atoi(r.Header.Get("Content-Length"))
+			if err != nil {
+				w.WriteHeader(http.StatusInternalServerError)
+				return
+			}
+
+			body := make([]byte, length)
+			length, err = r.Body.Read(body)
+			if err != nil && err != io.EOF {
+				w.WriteHeader(http.StatusInternalServerError)
+				return
+			}
+
+			//parse json
+			var jsonBody map[string]interface{}
+			if err := json.Unmarshal(body[:length], &jsonBody); err != nil {
+				w.WriteHeader(http.StatusInternalServerError)
+				return
+			}
+			fmt.Printf("%v\n", jsonBody)
+
+			// params := r.FormValue("parameter1")
+
+			// // URLのアクセスパスが誤っていないかチェック
+			// if r.URL.Path != "/greeting" {
+			// 	t.Fatalf("誤ったアクセスパスでアクセス!")
+			// }
+			// // クエリパラメータをチェック
+			// if r.URL.Query().Get("greet") != "Hello" {
+			// 	t.Fatalf("正しく挨拶してない!")
+			// }
+			// レスポンスを設定する
+			w.Header().Set("content-Type", "text")
+			res := fmt.Sprintf("res: %v", jsonBody)
+			fmt.Fprintf(w, string(res))
+		},
+	))
+	defer ts.Close()
+
 	db := NewTestDB()
-	srv := NewTestServer()
+	srv := NewTestServer(ts.URL)
 	if err := run(db, time.Date(2021, 10, 24, 1, 2, 3, 4, time.Local), srv); err != nil {
 		t.Fatal(err)
 	}

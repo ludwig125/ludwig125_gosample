@@ -1,10 +1,13 @@
 package main
 
 import (
+	"bytes"
 	"encoding/csv"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"log"
+	"net/http"
 	"strings"
 	"time"
 )
@@ -130,6 +133,7 @@ type Server interface {
 }
 
 type server struct {
+	serverURL string
 }
 
 func NewServer() Server {
@@ -137,6 +141,35 @@ func NewServer() Server {
 }
 
 func (s server) Delete(params string) error {
+	return delete(s.serverURL, params)
+}
+
+func delete(serverURL string, params string) error {
+	client := &http.Client{}
+	j := `{"parameter1": "a"}`
+	req, err := http.NewRequest("POST", serverURL, bytes.NewBuffer([]byte(j)))
+	// req, err := http.NewRequest("POST", serverURL, nil)
+	if err != nil {
+		return err
+	}
+	req.Header.Set("Content-Type", "application/json")
+	resp, err := client.Do(req)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	// 200 が返ってくるかチェック
+	if resp.StatusCode != 200 {
+		return fmt.Errorf("status code Error. %v", resp.StatusCode)
+	}
+
+	// レスポンス本文が見たい場合はここのコメントアウトを外す
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return err
+	}
+	fmt.Println("result:", string(body))
 	return nil
 }
 
