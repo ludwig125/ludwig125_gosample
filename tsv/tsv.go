@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 	"time"
 )
@@ -17,12 +18,72 @@ import (
 func main() {
 	db := NewDB()
 	server := NewServer()
-	if err := run(db, time.Now(), server); err != nil {
+
+	if err := run(db, server, time.Now()); err != nil {
 		log.Fatal(err)
 	}
 }
 
-func run(db DB, now time.Time, srv Server) error {
+func run(db DB, srv Server, now time.Time) error {
+	today := now.Format("20060102") // YYYYMMDDの形で今日の日付を取得
+	targetDateList := []string{today}
+
+	reExecuteDate, troubleDateList, err := extractDate(os.Getenv("TROUBLE_DATE_LIST"))
+	if err == nil && reExecuteDate == today {
+		targetDateList = troubleDateList
+		if !containsToday(targetDateList, today) {
+			targetDateList = append(targetDateList, today)
+		}
+	}
+
+	// var targetDateList []string
+	// today := now.Format("20060102") // YYYYMMDDの形で今日の日付を取得
+
+	// reExecuteDate, troubleDateList, err := extractDate(os.Getenv("TROUBLE_DATE_LIST"))
+	// if err != nil {
+	// 	// エラーがあったらtargetDateListは今日だけ
+	// 	targetDateList = []string{today}
+	// }
+
+	// if reExecuteDate != today {
+	// 	// 再実行日が今日じゃないならtargetDateListは今日だけ
+	// 	targetDateList = []string{today}
+	// } else {
+	// 	targetDateList = troubleDateList
+	// 	if !containsToday(targetDateList, today) {
+	// 		targetDateList = append(targetDateList, today)
+	// 	}
+	// }
+
+	for _, targetDate := range targetDateList {
+		if err := executeForEachDate(db, srv, targetDate); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func extractDate(s string) (string, []string, error) {
+	res := strings.Fields(s)
+	if len(res) != 2 {
+		// 2要素なければおかしい
+		return "", nil, fmt.Errorf("invalid date: %s", s)
+	}
+	executeDate := res[0]
+	troubleDateList := strings.Split(res[1], ",")
+	return executeDate, troubleDateList, nil
+}
+
+func containsToday(list []string, today string) bool {
+	for _, v := range list {
+		if v == today {
+			return true
+		}
+	}
+	return false
+}
+
+func executeForEachDate(db DB, srv Server, targetDate string) error {
 	tables := []string{"TableA", "TableB", "TableC"}
 	for _, table := range tables {
 		partitions, err := db.ReadPartition(table)
@@ -30,7 +91,8 @@ func run(db DB, now time.Time, srv Server) error {
 			return err
 		}
 		// log.Println(table, "partition is", partitions)
-		if !containsToday(partitions, now) {
+		// if !containsTargetDate(partitions, targetDate) {
+		if !strings.Contains(partitions, targetDate) {
 			return fmt.Errorf("table %s does not have today's partition. partitions: %s", table, partitions)
 		}
 	}
@@ -79,10 +141,10 @@ func (d database) GetTSV() (string, error) {
 	return "", nil
 }
 
-func containsToday(target string, now time.Time) bool {
-	format := "20060102"
-	return strings.Contains(target, now.Format(format))
-}
+// func containsTargetDate(target string, now time.Time) bool {
+// 	format := "20060102"
+// 	return strings.Contains(target, now.Format(format))
+// }
 
 type Data struct {
 	A string
