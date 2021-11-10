@@ -9,6 +9,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"sort"
 	"strings"
 	"time"
 )
@@ -19,42 +20,42 @@ func main() {
 	db := NewDB()
 	server := NewServer()
 
-	if err := run(db, server, time.Now()); err != nil {
+	targetDateList, err := getTargetDateList(time.Now().Format("20060102"), os.Getenv("TROUBLE_DATE_LIST"))
+	if err != nil {
 		log.Fatal(err)
 	}
+	if err := run(db, server, targetDateList); err != nil {
+		log.Fatal(err)
+	}
+
+	// if err := run(db, server, time.Now()); err != nil {
+	// 	log.Fatal(err)
+	// }
 }
 
-func run(db DB, srv Server, now time.Time) error {
-	today := now.Format("20060102") // YYYYMMDDの形で今日の日付を取得
+func getTargetDateList(today, troubleDateListStr string) ([]string, error) {
+	if _, err := time.Parse("20060102", today); err != nil {
+		return nil, fmt.Errorf("invalid date format: %s", today)
+	}
+
+	// today := now.Format("20060102") // YYYYMMDDの形で今日の日付を取得
 	targetDateList := []string{today}
 
-	reExecuteDate, troubleDateList, err := extractDate(os.Getenv("TROUBLE_DATE_LIST"))
+	reExecuteDate, troubleDateList, err := extractDate(troubleDateListStr)
 	if err == nil && reExecuteDate == today {
+		// エラーがなくて再実行日が今日ならtargetDateListを更新する
 		targetDateList = troubleDateList
 		if !containsToday(targetDateList, today) {
 			targetDateList = append(targetDateList, today)
 		}
 	}
 
-	// var targetDateList []string
-	// today := now.Format("20060102") // YYYYMMDDの形で今日の日付を取得
+	// 日付の古い順にソート
+	sort.Strings(targetDateList)
+	return targetDateList, nil
+}
 
-	// reExecuteDate, troubleDateList, err := extractDate(os.Getenv("TROUBLE_DATE_LIST"))
-	// if err != nil {
-	// 	// エラーがあったらtargetDateListは今日だけ
-	// 	targetDateList = []string{today}
-	// }
-
-	// if reExecuteDate != today {
-	// 	// 再実行日が今日じゃないならtargetDateListは今日だけ
-	// 	targetDateList = []string{today}
-	// } else {
-	// 	targetDateList = troubleDateList
-	// 	if !containsToday(targetDateList, today) {
-	// 		targetDateList = append(targetDateList, today)
-	// 	}
-	// }
-
+func run(db DB, srv Server, targetDateList []string) error {
 	for _, targetDate := range targetDateList {
 		if err := executeForEachDate(db, srv, targetDate); err != nil {
 			return err
@@ -62,6 +63,27 @@ func run(db DB, srv Server, now time.Time) error {
 	}
 	return nil
 }
+
+// func run(db DB, srv Server, now time.Time) error {
+// 	today := now.Format("20060102") // YYYYMMDDの形で今日の日付を取得
+// 	targetDateList := []string{today}
+
+// 	reExecuteDate, troubleDateList, err := extractDate(os.Getenv("TROUBLE_DATE_LIST"))
+// 	if err == nil && reExecuteDate == today {
+// 		// エラーがなくて再実行日が今日ならtargetDateListを更新する
+// 		targetDateList = troubleDateList
+// 		if !containsToday(targetDateList, today) {
+// 			targetDateList = append(targetDateList, today)
+// 		}
+// 	}
+
+// 	for _, targetDate := range targetDateList {
+// 		if err := executeForEachDate(db, srv, targetDate); err != nil {
+// 			return err
+// 		}
+// 	}
+// 	return nil
+// }
 
 func extractDate(s string) (string, []string, error) {
 	res := strings.Fields(s)

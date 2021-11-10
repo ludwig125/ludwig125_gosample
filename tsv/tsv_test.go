@@ -9,7 +9,6 @@ import (
 	"strconv"
 	"strings"
 	"testing"
-	"time"
 
 	"github.com/google/go-cmp/cmp"
 )
@@ -104,16 +103,19 @@ func TestRun(t *testing.T) {
 			// レスポンスを設定する
 			w.Header().Set("content-Type", "text")
 			res := fmt.Sprintf("res: %v", jsonBody)
-			fmt.Fprintf(w, string(res))
+			fmt.Fprintln(w, string(res))
 		},
 	))
 	defer ts.Close()
 
 	db := NewTestDB()
 	srv := NewTestServer(ts.URL)
-	if err := run(db, time.Date(2021, 10, 24, 1, 2, 3, 4, time.Local), srv); err != nil {
+	if err := run(db, srv, []string{"20211024"}); err != nil {
 		t.Fatal(err)
 	}
+	// if err := run(db, srv, time.Date(2021, 10, 24, 1, 2, 3, 4, time.Local)); err != nil {
+	// 	t.Fatal(err)
+	// }
 
 	// tests := map[string]struct {
 	// 	data    string
@@ -146,6 +148,57 @@ func TestRun(t *testing.T) {
 	// 		// }
 	// 	})
 	// }
+}
+
+func TestGetTargetDateList(t *testing.T) {
+	tests := map[string]struct {
+		today              string
+		troubleDateListStr string
+		wantErr            bool
+		want               []string
+	}{
+		"reExecuteDate_is_today": {
+			today:              "20211024",
+			troubleDateListStr: "20211024 20211024,20211023,20211022",
+			want: []string{
+				"20211022",
+				"20211023",
+				"20211024",
+			},
+		},
+		"reExecuteDate_is_not_today": {
+			today:              "20211024",
+			troubleDateListStr: "20211023 20211023,20211022",
+			want: []string{
+				"20211024",
+			},
+		},
+		"error": {
+			today:              "202110244444444`",
+			troubleDateListStr: "20211024 20211024,20211023,20211022",
+			wantErr:            true,
+			want: []string{
+				"20211022",
+				"20211023",
+				"20211024",
+			},
+		},
+	}
+	for name, tt := range tests {
+		t.Run(name, func(t *testing.T) {
+			// fmt.Println(tt)
+			got, err := getTargetDateList(tt.today, tt.troubleDateListStr)
+			if err != nil {
+				if !tt.wantErr {
+					t.Fatal(err)
+				}
+				return
+			}
+			if diff := cmp.Diff(got, tt.want); diff != "" {
+				t.Errorf("got: %v,want: %v, diff: %s", got, tt.want, diff)
+			}
+		})
+	}
 }
 
 func TestReadTSV(t *testing.T) {
