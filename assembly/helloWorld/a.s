@@ -1,0 +1,4 @@
+TEXT	main·main(SB),0,$0
+	MOVQ	$231, AX
+	MOVQ	$1, DI
+	SYSCALL
