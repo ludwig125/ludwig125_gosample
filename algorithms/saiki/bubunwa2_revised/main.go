@@ -1,14 +1,16 @@
 package main
 
-func main(){
+import "fmt"
+
+func main() {
 	fmt.Println(fibo(5))
 }
 
 func fibo(i int) int {
-	if i==0{
+	if i == 0 {
 		return 0
 	}
-	if i==1{
+	if i == 1 {
 		return 1
 	}
 
